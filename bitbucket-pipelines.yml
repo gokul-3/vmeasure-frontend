@@ -1,0 +1,65 @@
+pipelines:
+   branches:
+    custom:
+      - step:
+          size: 2x
+          name: SonarQube analysis
+          services:
+            - docker
+          runs-on: 
+            - 'self.hosted'
+            - 'linux'
+            - 'vmware.docker'
+          script:
+            - echo "sonar.projectKey=P2109" > sonar-project.properties
+            - docker run --memory=4096mb --rm -e SONAR_HOST_URL="$SONAR_HOST_URL" -e SONAR_TOKEN="$SONAR_TOKEN" -v "$BITBUCKET_CLONE_DIR:/usr/src" -v "$BITBUCKET_CLONE_DIR/sonar-project.properties:/usr/src/sonar-project.properties" sonarsource/sonarqube-scan -X
+    staging:
+      - step:
+          size: 2x
+          name: SonarQube analysis
+          services:
+            - docker
+          runs-on: 
+            - 'self.hosted'
+            - 'linux'
+            - 'vmware.docker'
+          script:
+            - echo "sonar.projectKey=P2209" > sonar-project.properties 
+            - docker run --memory=4096mb --rm -e SONAR_HOST_URL="$SONAR_HOST_URL" 
+             -e SONAR_TOKEN="$SONAR_TOKEN"
+             -v "$BITBUCKET_CLONE_DIR:/usr/src" -v "$BITBUCKET_CLONE_DIR/sonar-project.properties:/usr/src/sonar-project.properties" sonarsource/sonarqube-scan -X 
+    qa:
+      - step:
+          size: 2x
+          name: SonarQube analysis
+          services:
+            - docker
+          runs-on: 
+            - 'self.hosted'
+            - 'linux'
+            - 'vmware.docker'
+          script:
+            - echo "sonar.projectKey=P2309" > sonar-project.properties 
+            - docker run --memory=4096mb --rm -e SONAR_HOST_URL="$SONAR_HOST_URL" 
+             -e SONAR_TOKEN="$SONAR_TOKEN"
+             -v "$BITBUCKET_CLONE_DIR:/usr/src" -v "$BITBUCKET_CLONE_DIR/sonar-project.properties:/usr/src/sonar-project.properties" sonarsource/sonarqube-scan -X
+
+    production:
+      - step:
+          size: 2x
+          name: SonarQube analysis
+          services:
+            - docker
+          runs-on: 
+            - 'self.hosted'
+            - 'linux'
+            - 'vmware.docker'
+          script:
+            - echo "sonar.projectKey=P2409" > sonar-project.properties 
+            - docker run --memory=4096mb --rm -e SONAR_HOST_URL="$SONAR_HOST_URL" 
+             -e SONAR_TOKEN="$SONAR_TOKEN"
+             -v "$BITBUCKET_CLONE_DIR:/usr/src" -v "$BITBUCKET_CLONE_DIR/sonar-project.properties:/usr/src/sonar-project.properties" sonarsource/sonarqube-scan -X
+definitions:
+  services:
+    docker:
+      memory: 4096 

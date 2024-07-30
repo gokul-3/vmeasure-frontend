@@ -1,0 +1,1257 @@
+{
+  "demo_mode": {
+    "title": "Modo Demo",
+    "content": "El dispositivo Ultima se puede usar en modo demo con las siguientes condiciones.",
+    "on_complete": "Modo Demo Completado.",
+    "button_accept": "Aceptar",
+    "button_deny": "Denegar",
+    "not_applicable": "NA",
+    "notes": {
+      "line1": "Use <0>1234</0> como contraseña predeterminada para el usuario demo.",
+      "line2": "Puede tomar un <0>máximo de {{measurement_count}} mediciones</0> en modo demo.",
+      "line3": "Después de <0>{{measurement_count}} mediciones</0>, el dispositivo se reiniciará automáticamente.",
+      "line4": "Las mediciones no se cargarán en Forge.",
+      "line5": "Puede cerrar sesión/reiniciar en cualquier momento para desactivar el modo demo.",
+      "line6": "Una vez que el modo demo se desactive, no podrá volver a activarlo."
+    },
+    "top_bar": {
+      "title": "*Modo Demo ({{count}} Mediciones Restantes)*"
+    }
+  },
+  "login_page": {
+    "title": "Iniciar sesión",
+    "invalid_pin": "PIN no válido. Por favor, inténtelo de nuevo.",
+    "network_error": "No se puede obtener información, por favor verifique su conexión de red.",
+    "authenticating": "Autenticando ...",
+    "keypad_login": "Acceso"
+  },
+  "calibration_page": {
+    "page_title": "Calibración",
+    "calibration_expires_at": "Vence en :",
+    "last_calibrated_mode": "Modo calibrado actual",
+    "small_parcel_envelope_subtitle": "1.1 {{weighing_scale}} (MODO SOBRE)",
+    "small_parcel_mode": "MODO PAQUETE PEQUEÑO",
+    "small_parcel_non_envelope_subtitle": "1.1 {{weighing_scale}} (MODO NO SOBRE)",
+    "all_parcel_mode": "MODO TODO PAQUETE",
+    "all_parcel_envelope_subtitle": "1.5 {{weighing_scale}} (MODO SOBRE)",
+    "all_parcel_non_envelope_subtitle": "1.5 {{weighing_scale}} (MODO NO SOBRE)",
+    "white_parcel_mode": "MODO ARTÍCULOS BLANCOS",
+    "white_parcel_mode_subtitle": "2.2 {{weighing_scale}}",
+    "Calibrate": "Calibrar",
+    "calibration_expired": "caducada",
+    "calibration_status": "Estado calibración",
+    "Recalibrate": "Re-calibrar",
+    "calibration_in_progress": "Calibración en progreso",
+    "calibration_will_start_in_xx_seconds": "La calibración comenzará en %d segundos",
+    "envelope_mode_content": "Asegúrese de que la placa del sobre esté PRESENTE en el área de trabajo, asegúrese de que el valor del peso en la balanza sea CERO y CONFIRME para continuar con la calibración.",
+    "envelope_mode_title": "Modo de sobre",
+    "non_envelope_mode_content": "Asegúrese de que la placa del sobre NO ESTÉ PRESENTE en el área de trabajo y CONFIRME para continuar con la calibración.",
+    "non_envelope_mode_title": "Modo no sobre",
+    "keep_ground_clear": "POR FAVOR MANTENGA EL ÁREA DE TRABAJO DESPEJADA",
+    "please_choose_setup_height": "POR FAVOR ELIJA LA ALTURA DE CONFIGURACIÓN",
+    "auto_calibration": "CALIBRACIÓN AUTOMÁTICA",
+    "setup_mode": "MODO DE CONFIGURACIÓN",
+    "calibration_messages": {
+      "calibrate_success": "SISTEMA CALIBRADO CON ÉXITO",
+      "calibrate_success_msg": "El sistema está listo para la medición",
+      "calibrate_failed": "FALLO DE CALIBRACIÓN DEL SISTEMA",
+      "depth_shift_random_points_failure": "No se pueden detectar puntos de referencia",
+      "depth_shift_reference_points_failure": "Fallo en el desplazamiento de la referencia de la profundidad",
+      "aurco_mark_not_detected": "No se puede encontrar el marcador en la vista previa de la cámara",
+      "height_failed": "El sistema no cumple con el umbral de altura/ángulo",
+      "incorrect_weight_unit": "Unidad de peso incorrecta, no se puede validar el peso",
+      "incorrect_weight": "Verifique que la báscula no sea inestable/negativa/sobrepeso.",
+      "negative_weight": "Se detectó peso negativo. Verifique que el peso sea cero en la báscula.",
+      "scale_not_found": "Báscula no encontrada. Asegúrese de que la balanza esté conectada",
+      "unable_to_get_data": "No se puede leer datos de la balanza",
+      "exception_do_calibration": "No se pueden leer datos de la imagen de la balanza",
+      "calibration_out_of_operating_temperature": "Temperatura de la cámara fuera de rango.",
+      "invalid_setup_height": "Altura de configuración no válida"
+    },
+    "calibration_note": {
+      "note": "Nota:",
+      "note_for_1.1_line1": "Las placas envolventes 1.1 y 1.5 son diferentes; usar la placa 1.5 en el modo 1.1 provocaría mediciones fallidas.",
+      "note_for_1.1_line2": "1.1 Los pilares de la placa envolvente miden 2cm de alto.",
+      "note_for_1.5_line1": "Las placas envolventes 1.5 y 1.1 son diferentes; usar la placa 1.5 en el modo 1.1 provocaría mediciones fallidas.",
+      "note_for_1.5_line2": "Los pilares de la placa de 1.5 sobres miden 5 cm de alto."
+    },
+    "queue_full_dialog": {
+      "title": "Alerta",
+      "content": "Límite de almacenamiento alcanzado. La carga de datos es demasiado lenta. Verifique su conexión de red.",
+      "button": "De acuerdo"
+    },
+    "stream_message": {
+      "blue_circle_notes": "círculo azul representa cero grados",
+      "black_circle_notes": "El círculo negro representa el ángulo actual"
+    }
+  },
+  "scale_page": {
+    "title": "Configuración de la balanza",
+    "scale_unit": "Unidad de medida",
+    "auto_detect_unit": "Detectar unidad automáticamente",
+    "default_minimum_weight": "Peso mínimo predeterminado",
+    "weighing_scale_save_success_and_do_calibrate": "Ajustes de la balanza actualizados, por favor calibre antes de continuar",
+    "weighing_scale_save_success": "Configuración de la báscula actualizada",
+    "scale": "Escala",
+    "confirmation_dialog": {
+      "title": "Confirmación",
+      "content": "Asegúrese de que la unidad de escala seleccionada y la unidad de la balanza sean las mismas.",
+      "ok": "Aceptar"
+    },
+    "error_messages": {
+      "incorrect_weight_unit": "Unidad de peso incorrecta, no se puede validar el peso",
+      "incorrect_weight": "Verifique que la báscula no sea inestable/negativa/sobrepeso.",
+      "negative_weight": "Se detectó peso negativo. Verifique que el peso sea cero en la báscula.",
+      "scale_not_found": "Báscula no encontrada. Asegúrese de que la balanza esté conectada",
+      "unable_to_get_data": "No se puede leer datos de la balanza",
+      "something_went_wrong": "Algo salió mal"
+    },
+    "info": {
+      "title": "Escala - Compatibilidad de normas"
+    },
+    "scale_connection": {
+      "title": "Estado de Conexión de la Escala",
+      "status": {
+        "connected": "Conectado",
+        "not_connected": "No Conectado"
+      }
+    }
+  },
+  "barcode_page": {
+    "page_title": "Configuración del Código de Barras",
+    "barcode": "Código de Barras",
+    "barcode_connection": {
+      "title": "Estado de conexión del código de barras",
+      "status": {
+        "connected": "Conectado",
+        "not_connected": "No Conectado"
+      }
+    },
+    "unable_to_detect_barcode": "No se puede DETECTAR el escáner de códigos de barras. Por favor, verifique la conexión o contacte al soporte técnico.",
+    "note_hid_scanner_line1": "1. Asegúrese de que solo esté conectado un código de barras HID.",
+    "note_hid_scanner_line2": "2. Asegúrese de que el código de barras esté en modo HID.",
+    "note_hid_scanner_line3": "3. El teclado no debe estar conectado al guardar un código de barras HID.",
+    "more_than_one_hid_device_connected": "Asegúrese de que solo esté conectado un código de barras HID."
+  },
+  "units_page": {
+    "measurement_units": "Unidades de Medición",
+    "page_title": "Configuración de Unidades",
+    "info": {
+      "title": "Unidad - Compatibilidad de Normas",
+      "unit": "Unidad"
+    }
+  },
+  "configurations": {
+    "page_title": "Configuraciones",
+    "notes": "Notas",
+    "calibration": {
+      "page_title": "Configuración de Calibración",
+      "calibration_settings": "Tipo de Calibración",
+      "zero_tare_calibration": "Comprobación de Peso Cero",
+      "calibration_settings_saved": "Datos Guardados Exitosamente. Por favor, calibre antes de continuar.",
+      "legacy": "Legado",
+      "marker_based": "Basado en marcador",
+      "region_based": "Basado en la región",
+      "notes_legacy": {
+        "line1": "Mantenga limpios los alrededores para lograr una medición exitosa"
+      },
+      "notes_marker_based": {
+        "line1": "Asegúrese que marcador Aruco esté colocado dentro la región medible",
+        "line2": "Altura de 1.1 metros - <0>10x10 cm / 3.94x3.94 in</0> marcador Aruco",
+        "line3": "Altura de 1.5 metros - <0>10x10 cm / 3.94x3.94 in</0> marcador Aruco",
+        "line4": "Altura de 2.2 metros - <0>20x20 cm / 7.87x7.87 in</0> marcador Aruco"
+      },
+      "notes_region_based": {
+        "line1": "Después de la calibración, se muestra un marcador cuadrado en la vista previa para indicar la <0>región de referencia</0>",
+        "line2": "Mantenga la <0>región de referencia</0> limpia para lograr una medición exitosa"
+      }
+    },
+    "measurements": {
+      "metrological_standards": "Normas Metrologicas",
+      "page_title": "Configuración Metrologica",
+      "strict_mode": "Modo Estricto",
+      "ntep_settings_saved": "Datos Guardados Exitosamente. Por favor, calibre antes de continuar.",
+      "ntep_notification": "El dispositivo está en modo NTEP. Por favor, desactive NTEP para habilitar las opciones anteriores.",
+      "default": "Por defecto",
+      "raw": "Crudo",
+      "notes_default": {
+        "line1": "Para objetos más altos <0>0.5 cm/0.2 pulgadas</0>,Tamaño del Paso <0>0.5 cm/0.2 pulgadas</0>.",
+        "line2": "Para objetos más bajos <0>0.5 cm/0.2 pulg.</0>,Tamaño Paso <0>0.1 cm/0.1 pulg.</0>.",
+        "line3": "Para objetos más bajos de <0>0.1 pulg.</0>, el Tamaño del Paso es <0>0.04 pulg.</0>.",
+        "line4": "La unidad de dimensión <0>mm</0> no admite <0>estándares metrológicos</0>."
+      },
+      "notes_raw": {
+        "line1": "Para objetos más altos de <0>0.1 pulg.</0>, el Tamaño del Paso es <0>0.1 cm/0.1 pulg.</0>.",
+        "line2": "Para objetos más bajos de <0>0.1 pulg.</0>, el Tamaño del Paso es <0>0.04 pulg.</0>.",
+        "line3": "La unidad de dimensión <0>mm</0> no admite <0>estándares metrológicos</0>."
+      },
+      "notes_ntep": {
+        "line1": "1. En el modo NTEP, el tamaño del paso de medición será <0>0,5 pulgadas</0>"
+      },
+      "ntep": {
+        "popup": {
+          "title": "Confirmación de NTEP",
+          "description": "Los siguientes cambios se aplicarán automáticamente después de habilitar el modo NTEP",
+          "point1": "1. El estado de la calibración se restablecerá y el dispositivo deberá ser recalibrado.",
+          "point2": "2. Cualquier balanza no NTEP conectada al dispositivo se desconectará.",
+          "point3": "3. Cualquier unidad de dimensión no NTEP detectada se restablecerá a <0>Pulgadas-Libra</0>.",
+          "point4": "4. El modo NTEP solo admitirá una altura de configuración de <0>1.5</0>.",
+          "point5": "5. El peso mínimo predeterminado para la báscula se restablecerá a 0g.",
+          "point6": "6. El modo NTEP no admitirá métodos de redondeo de valores volumétricos."
+        }
+      }
+    },
+    "restricted_conflicts": {
+      "title": "Algunas de las funciones no estaban disponibles en Sistema",
+      "volumetric_round_off": "Método de redondeo volumétrico - debido a que NTEP está habilitado",
+      "4k_not_found": "Imágenes 4K: debido a que la cámara 4k no está disponible",
+      "invalid_ssl_cert": "Certificados SSL no válidos proporcionados para el servicio remoto de Ultima",
+      "custom_workflow_app_not_found": "Servicio de flujo de trabajo personalizado habilitado en Forge pero el servicio no se encuentra en el dispositivo. Continuando con el flujo de trabajo predeterminado."
+    },
+    "certificates": {
+      "form_title": "Certificados",
+      "ntep_title": "NTEP"
+    },
+    "timezone": {
+      "page_title": "Zona Horaria"
+    },
+    "language_settings": {
+      "title": "Ajustes del sistema",
+      "page_title": "Ajustes de sistema",
+      "language": "Idioma",
+      "keyboard_language": "Idioma del teclado",
+      "confirmation_dialog": {
+        "title": "Confirmación",
+        "content": "¿Está seguro de que desea cambiar la configuración de idioma? Esto actualizará el idioma/fuente utilizado en toda la aplicación.",
+        "ok": "Confirmar"
+      }
+    },
+    "FontSettings": {
+      "font_size": "Tamaño fuente",
+      "default": "Por defecto",
+      "large": "Grande"
+    },
+    "VolumeSetting": {
+      "title": "Volumen"
+    },
+    "printer_settings": {
+      "page_title": "Configuración de la Impresora",
+      "available_printers": "Impresoras Disponibles",
+      "add_printer": "Nueva Impresora",
+      "active_jobs": "Trabajos",
+      "test_print": "De prueba",
+      "printer_model": "Modelo",
+      "edit_option": "Editar Opciones de Impresora",
+      "general": "General",
+      "clear_all": "Borrar Todo",
+      "no_active_jobs": "No hay Trabajos Activos",
+      "name": "Nombre *",
+      "description": "Descripción",
+      "location": "Ubicación",
+      "connection": "Conexión",
+      "set_as_default": "Por defecto",
+      "make": "Marca *",
+      "model": "Modelo *",
+      "fill_required_fields": "Por favor, llene los campos requeridos",
+      "use_printer_by_default": " Usar Impresora por Defecto",
+      "printer_options": "Opciones de Impresora",
+      "no_printers": "No hay Impresoras Disponibles",
+      "width": "Ancho",
+      "height": "Altura",
+      "unit": "Unidad",
+      "saved": "Guardado",
+      "confirmation_dialog": {
+        "title": "Confirmación",
+        "content": "¿Estás seguro de que deseas eliminar la Impresora?",
+        "ok": "Confirmar"
+      },
+      "printer_error": {
+        "api_failed": "Fallo de la API",
+        "printer_deleted_successfully": "Impresora eliminada exitosamente",
+        "printer_added_successfully": "Impresora agregada exitosamente",
+        "please_fill_width_and_height": "Por favor, llene el ancho y la altura",
+        "something_went_wrong": "Algo salió mal",
+        "data_saved_successfully": "Datos guardados exitosamente",
+        "unable_to_get_available_printers": "No se pueden obtener las Impresoras Disponibles",
+        "unable_to_get_printer_list": "No se puede obtener la Lista de Impresoras",
+        "unable_to_get_manufacturers": "No se pueden obtener los Fabricantes",
+        "unable_to_add_printer": "No se puede agregar la Impresora",
+        "unable_to_add_printer_settings": "No se pueden agregar las Configuraciones de la Impresora",
+        "failed_to_print": "Fallo al imprimir",
+        "failed_to_print_testpage": "Fallo al imprimir la página de prueba",
+        "unable_to_get_drivers": "No se pueden obtener los Controladores",
+        "unable_to_get_active_jobs": "No se pueden obtener los Trabajos Activos",
+        "unable_to_remove_printer": "No se puede eliminar la impresora",
+        "unable_to_cancel_jobs": "No se pueden cancelar los trabajos",
+        "unable_to_get_default_printer": "No se puede obtener la impresora predeterminada",
+        "unable_to_set_default_printer": "No se puede establecer la impresora predeterminada",
+        "unable_to_get_active_printer": "No se puede obtener la impresora activa",
+        "unable_to_resume_job": "No se puede reanudar el trabajo",
+        "unable_to_hold_job": "No se puede retener el trabajo",
+        "unable_to_reprint_job": "No se puede reimprimir el trabajo",
+        "unable_to_move_job": "No se puede mover el trabajo",
+        "unable_to_move_all_job": "No se pueden mover todos los trabajos",
+        "unable_to_disable_printer": "No se puede desactivar la impresora",
+        "unable_to_enable_printer": "No se puede habilitar la impresora",
+        "unable_to_allow_user": "No se puede permitir al usuario",
+        "unable_to_prevent_user": "No se puede prevenir al usuario"
+      }
+    },
+    "custom_settings": {
+      "title": "Configuración personalizada",
+      "page_title": "Ajustes de Servicio Personalizados"
+    },
+    "tigger_service":{
+      "popup_timer": "Tiempo de activación del servicio emergente"
+    }
+  },
+  "menu": {
+    "calibration": "Calibración",
+    "units": "Unidades",
+    "scale": "Escala",
+    "network": "Red",
+    "update": "Actualizar",
+    "barcode": "Código de Barras",
+    "reference_box": "Caja de Referencia",
+    "configuration": "Configuración",
+    "desktop_app": "Conexión de Escritorio"
+  },
+  "information_page": {
+    "tab_title": {
+      "system_info": "Información del Sistema",
+      "dims_spec": "Especificación de dimensiones",
+      "workflow_info": "Información del Flujo de Trabajo"
+    },
+    "system_info": {
+      "system_name": "Nombre del Sistema",
+      "system_friendly_name": "Nombre del Sistema",
+      "site_name": "Nombre del Sitio",
+      "cc": "CC",
+      "config_group_name": "Nombre del Grupo Configuración",
+      "file_webhook_name": "Nombre del Gancho Archivo",
+      "manufacturer": "Fabricante",
+      "model": "Modelo",
+      "operating_temperature": "Temperatura de Operación",
+      "serial_number": "Número de Serie",
+      "webhooks": "Nombre del Webhook",
+      "workflow_name": "Nombre del Flujo de Trabajo",
+      "app_version": "Versión de la Aplicación"
+    },
+    "workflow_info": {
+      "measurement_trigger": {
+        "title": "Disparador de Medición",
+        "source": "Fuente",
+        "timeout": "Tiempo de Espera"
+      },
+      "support_trigger": {
+        "title": "Activador de soporte",
+        "weighing_Scale_trigger": "Gatillo de báscula de pesaje",
+        "smart_measurement_trigger": "Activador de medición inteligente"
+      },
+      "additional_metrics": {
+        "title": "Métricas Adicionales",
+        "volumetric_weight": "Peso Volumétrico",
+        "volumetric_round_off_method": "Método de redondeo volumétrico",
+        "real_volume": "Volumen Real",
+        "cubic_volume": "Volumen Cúbico"
+      },
+      "measurement_result": {
+        "title": "Resultado de Medición",
+        "result_timeout": "Tiempo de Espera del Resultado",
+        "measurement_reject": "Rechazo de Medición",
+        "additional_result": "Resultado Adicional"
+      },
+      "measurment_config": {
+        "title": "Configuración de Medición",
+        "measurement_check": "Verificación de Medición",
+        "measurement_retry": "Reintento de Medición",
+        "measurement_retry_count": "Conteo de Reintentos"
+      },
+      "workflow_config": {
+        "title": "Configuración del Flujo de Trabajo",
+        "operating_mode": "Modo de Operación",
+        "upload_mode": "Modo de Carga",
+        "queue_size": "Tamaño de la Cola",
+        "sync_mode": "Modo de Sincronización"
+      },
+      "addon_features": {
+        "title": "Características Adicionales",
+        "bottle_mode": "Modo de Botella",
+        "4k_camera": "Cámara 4K"
+      },
+      "workflow_config_values": {
+        "master": "Maestro",
+        "slave": "Esclavo",
+        "asynchronous": "Asincrónico",
+        "synchronous": "Sincrónico",
+        "barcode": "Código de Barras",
+        "remote": "Remoto",
+        "Barcode": "Código de Barras",
+        "Remote": "Remoto",
+        "manual": "Por defecto",
+        "default": "Por defecto",
+        "enabled": "Habilitado",
+        "disabled": "Deshabilitado",
+        "cubic_volume": "Volumen Cúbico",
+        "real_volume": "Volumen Real",
+        "volumetric_weight": "Peso Volumétrico",
+        "scheduled_retry": "Programado",
+        "continuous_retry": "Continuo",
+        "no_delay": "Sin Retardo",
+        "static": "Estática",
+        "dynamic": "Dinámica",
+        "nearest": "Mas cercana",
+        "ceil": "Fortificar techo",
+        "floor": "Piso"
+      }
+    }
+  },
+  "software_update_page": {
+    "page_title": "Actualización de Software",
+    "update_checking_for_update": "Buscando la actualización de software",
+    "already_upto_date": "El sistema está actualizado",
+    "new_updates_available": "Nueva actualización disponible",
+    "version": "Version : ",
+    "feature": "Características:",
+    "initiating": "Iniciando la descarga",
+    "downloading": "Descargando la última actualización...",
+    "percentage": "Completado el {{percentage}}%",
+    "button": {
+      "download": "Descargar",
+      "install_now": "Instalar Ahora",
+      "install_later": "Instalar Más Tarde",
+      "close": "Cerrar"
+    },
+    "success": {
+      "download_success1": "Descarga del software completada",
+      "download_success2": "Es necesario reiniciar el dispositivo para instalar las características descargadas",
+      "download_success_without_permission": "Es necesario reiniciar el dispositivo. Comuníquese con el administrador del sitio para continuar. "
+    },
+    "check_for_update": {
+      "errors": {
+        "network_error": "No se pueden buscar las últimas actualizaciones. Por favor revise su conexion a internet.",
+        "something_went_wrong": "Algo salió mal. Por favor verifique la conexión o comuníquese con el soporte técnico",
+        "system_suspended": "El sistema está suspendido, por favor, contacta a tu Administrador.",
+        "subscription_expired": "La suscripción ha expirado, por favor contacta a tu Administrador.",
+        "subscription_not_started": "La suscripción no está activa, por favor contacta a tu Administrador.",
+        "system_not_assigned": "El sistema no está asignado a un sitio, por favor contacta a tu Administrador.",
+        "system_not_found": "Sistema no encontrado",
+        "unable_to_check": "No se pueden buscar las últimas actualizaciones."
+      }
+    },
+    "errors": {
+      "check_for_update": "No se puede verificar las últimas actualizaciones. Por favor, verifica tu conexión a Internet.",
+      "download_failed": "Error en la descarga",
+      "validation_failed": "La validación de la actualización de software falló.",
+      "network_error": "No se pueden descargar las últimas actualizaciones. Por favor revise su conexion a internet.",
+      "download_package_failed": "No se pueden descargar las últimas actualizaciones. Por favor revise su conexion a internet.",
+      "out_of_storage": "El dispositivo no requiere almacenamiento para continuar con las descargas. Por favor contacte a su administrador.",
+      "something_went_wrong": "Algo salió mal",
+      "subscription_end": "La suscripción ha caducado. Por favor, contacta a tu Administrador.",
+      "system_suspended": "El sistema está suspendido, por favor, contacta a tu Administrador.",
+      "operator_suspended": "El operador está suspendido, por favor, contacta a tu Administrador.",
+      "internet_not_available": "Por favor, verifica tu conexión de red. El sistema se redireccionará a la página de inicio de sesión",
+      "redirect_login": "Redireccionando a la página de inicio de sesión"
+    },
+    "post_validation": {
+      "pending": "",
+      "inprogress1": "Por favor, espera...",
+      "inprogress2": "Validando los paquetes descargados. Puede llevar algunos minutos.",
+      "inprogress3": "No apagues el dispositivo",
+      "failed1": "Validación Fallida",
+      "failed2": "Por favor, descarga de nuevo después de un tiempo.",
+      "success1": "Validación Completada",
+      "success2": "El dispositivo se reiniciará automáticamente en unos segundos.",
+      "pending1": "Reinicio del Sistema Requerido",
+      "pending2": "Tu sistema necesita completar la actualización.<0></0>Haz clic en <1>Instalar Ahora</1> para comenzar la instalación.",
+      "pending_without_permission": "Tu sistema necesita completar la actualización.<0></0>Por favor, contacta al administrador del sitio para continuar."
+    },
+    "confirmation": {
+      "title": "Confirmación de Descarga",
+      "content1": "El sistema descargará las actualizaciones disponibles en segundo plano y te informará una vez que se complete la descarga.",
+      "content2": "Mientras tanto, puedes seguir utilizando el sistema.",
+      "cancel": "Cancelar",
+      "proceed": "Continuar"
+    }
+  },
+  "workflow_download": {
+    "in_progress": "Descargando flujo de trabajo",
+    "workflow_download_failed": "Error al descargar el flujo de trabajo. Por favor, inténtalo de nuevo más tarde."
+  },
+  "barcode_errors": {
+    "barcode_maximum_length_has_been_reached": "Longitud de código de barras inválida",
+    "duplicate_barcode": "Código de barras ya escaneado.",
+    "barcode_failed": "Código de barras inválido."
+  },
+  "additional_video": {
+    "title": "Video Adicional",
+    "start": "Iniciar",
+    "cancel": "Saltar",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "stop": "Detener",
+    "reset": "Restablecer",
+    "continue": "Continuar",
+    "rec": "Grabar"
+  },
+  "network_page": {
+    "network_settings_page_title": "Configuración de Red",
+    "ethernet": "Ethernet",
+    "wi-fi": "Wi-Fi",
+    "ethernet_ip": "IP Ethernet",
+    "password_for_network": "Se requieren contraseñas o claves de encriptación para conectarse a la red Wi-Fi",
+    "enter_value": "Introducir valor",
+    "data_saved_successfully": "Datos guardados con éxito",
+    "network_forgot_successfully": "Red olvidada con éxito",
+    "edit_ip_configuration": "Configuración de Red - {{networkType}}  Configuración de IP - Editar",
+    "network_main_page": {
+      "test": "Prueba",
+      "information": "Información",
+      "serial_number": "Número de Serie",
+      "ethernet_mac_address": "Dirección MAC de Ethernet",
+      "ethernet_ip_address": "Dirección IP de Ethernet",
+      "wifi_mac_address": "Dirección MAC de Wi-Fi",
+      "wifi_ip_address": "Dirección IP de Wi-Fi",
+      "please_choose_the_network_settings": "Seleccione el tipo de red preferido",
+      "beta": "BETA",
+      "ntp": "NTP",
+      "proxy": "Proxy"
+    },
+    "ip_details": {
+      "ip_settings": "Configuración de IP",
+      "ip_configuration_settings": "Configuración de IP",
+      "dhcp": "DHCP",
+      "static": "IP Estático",
+      "ip_address": "Dirección IP",
+      "subnet": "Subred",
+      "preferred_dns": "DNS Preferido",
+      "alternate_dns": "DNS Alternativo",
+      "gateway": "Puerta de Enlace",
+      "network_mode": "Modo de Red"
+    },
+    "ethernet_page": {
+      "title": "Configuración de Red - Ethernet"
+    },
+    "wifi_page": {
+      "title": "Configuración de Red - Wi-Fi",
+      "on": "ENCENDIDO",
+      "off": "APAGADO",
+      "current_network": "Red Actual",
+      "wifi_ip": "IP de Wi-Fi",
+      "show_networks": "Mostrar Redes",
+      "forget_connection": "Olvidar Conexión",
+      "connecting": "Conectando...",
+      "connect": "Conectar",
+      "forgetting": "Olvidando...",
+      "no_available_networks": "No hay redes disponibles",
+      "available_networks": "Redes Disponibles",
+      "action_required": "Acción Requerida",
+      "authentication_required": "Autenticación Requerida",
+      "this_network_is_already_connected": "Esta Red ya está conectada",
+      "not_selected": "No Seleccionado",
+      "enterprise": {
+        "wifi_security": "Seguridad de Wi-Fi",
+        "authentication": "Autenticación",
+        "anonymousIdentity": "Identidad Anónima",
+        "domain": "Dominio",
+        "ca_certificate": "Certificado CA",
+        "ca_certificate_password": "Contraseña del Certificado CA",
+        "no_ca_is_required": "No se requiere Certificado CA",
+        "peap_version": "Versión PEAP",
+        "inner_authentication": "Autenticación Interna",
+        "username": "Nombre de Usuario",
+        "password": "Contraseña"
+      }
+    },
+    "network_test": {
+      "network_validator": "Validador de Red",
+      "connection_availability": "Disponibilidad de Conexión",
+      "internet_availability": "Disponibilidad de Internet",
+      "forge_communication": "Comunicación Forge",
+      "websocket_communication": "Comunicación por Websocket",
+      "download_speed": "Velocidad de Descarga",
+      "upload_speed": "Velocidad de Carga",
+      "reports": "Informes",
+      "hide_reports": "Ocultar Informes"
+    },
+    "test_result": {
+      "sub_domain": "Subdominio",
+      "status_code": "Código de Estado",
+      "response_msg": "Estado"
+    },
+    "unable_to_fetch_ip_address_from_router": "Wifi se conectó correctamente, pero no se puede obtener la dirección IP del enrutador",
+    "network_error": {
+      "unable_to_fetch_ethernet_settings": "No se pueden obtener las configuraciones de Ethernet",
+      "unable_to_detect_ethernet": "Por favor, asegúrese de que Ethernet esté conectado",
+      "unable_to_fetch_ip_address": "No se puede obtener la dirección IP",
+      "data_received_successfully": "Datos guardados con éxito",
+      "unable_to_configure_ethernet_settings": "No se pueden configurar las configuraciones de Ethernet",
+      "unable_to_restart_network": "No se puede reiniciar la red",
+      "wifi_adaptor_is_not_connected": "Por favor, asegúrese de que el adaptador Wi-Fi esté conectado",
+      "something_went_wrong": "Algo salió mal",
+      "unable_to_configure_wifi_settings": "No se pueden configurar las configuraciones de Wi-Fi",
+      "wifi_type_not_supported": "Tipo de Wi-Fi no soportado",
+      "ssid_not_found": "Red no encontrada",
+      "wifi_removed": "Configuración de Conexión Wi-Fi Eliminada",
+      "unable_to_turn_on_wifi": "No se puede Activar Wi-Fi",
+      "unable_to_connect_to_wifi": "No se puede conectar a la Red Wi-Fi",
+      "please_enter_valid_data": "Por favor, ingrese datos válidos en cada campo.",
+      "incorrect_password": "Contraseña Incorrecta",
+      "unable_to_fetch_interface": "No se puede obtener la Interfaz",
+      "exception_in_getting_wifi_list": "No se puede obtener la lista de WiFi. Inténtalo de nuevo.",
+      "exception_in_forget_connection": "Se produjo una excepción al olvidar la conexión. Inténtalo de nuevo.",
+      "exception_in_wifi_connection": "Se produjo una excepción al conectarse a WiFi. Inténtelo de nuevo o comuníquese con el soporte técnico."
+    },
+    "ntp_server": {
+      "ntp_server_configration": "Configuración del servidor NTP",
+      "server": "Servidor NTP",
+      "no_server_configured": "Ningún servidor configurado",
+      "enter_ntp_server": "Ingrese al servidor Ntp personalizado"
+    },
+    "proxy_server": {
+      "mode": {
+        "disabled": "Discapacitada",
+        "manual": "Manual",
+        "automatic": "Automática"
+      },
+      "proxy_server_configuration": "Configuración del servidor proxy",
+      "proxy_server_mode": "Modo de servidor proxy",
+      "ip_details": {
+        "http_proxy": "HTTP Proxy",
+        "https_proxy": "HTTPS Proxy",
+        "no_proxy": "No Proxy",
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "authentication_required": "Autenticación Requerida",
+        "no_proxy_helper_text": "Valor Predeterminado: localhost",
+        "pac_file_url": "URL Del Archivo PAC"
+      },
+      "pac_file_helper_text": "Proporcionar la URL remota del archivo PAC",
+      "success_msg": "Servidor proxy configurado correctamente",
+      "failure_msg": "No se puede configurar el servidor proxy",
+      "error_msg": {
+        "http_no_proxy_found": "HTTP - No se ha encontrado ningún proxy",
+        "https_no_proxy_found": "HTTPS - No se ha encontrado ningún proxy",
+        "http_authentication_failed": "HTTP - Error de autenticación",
+        "https_authentication_failed": "HTTPS - Error de autenticación",
+        "unable_to_validate_proxy_server": "No se puede validar el servidor proxy",
+        "invalid_pac_file_url": "URL de archivo PAC no válida",
+        "unable_to_connect_with_forge": "Pero No se puede conectar con Forge"
+      },
+      "authentication_dialog": {
+        "title": "Detalles de autenticación"
+      }
+    }
+  },
+  "desktop_app": {
+    "page_title": "Conexión de Escritorio",
+    "auto_login_request": "Solicitud de inicio de sesión recibida desde la aplicación de escritorio",
+    "pair_status_lable_text": "Estado de la Aplicación de Escritorio",
+    "paired": "Emparejado",
+    "not_paired": "Desconectado",
+    "unpair": "Desemparejar",
+    "pair_request_popup": {
+      "title": "Conexión de Escritorio - Solicitud de Emparejamiento",
+      "confirmation_text": "El dispositivo recibió una nueva solicitud de emparejamiento. ¿Desea permitirlo?",
+      "timer_text": "La solicitud se rechazará automáticamente en: <0>{{counter}}</0> segundos",
+      "note_text": "<0>Nota:</0> Las mediciones adicionales se cargarán utilizando los detalles del operador actual",
+      "allow": "Confirmar",
+      "dont_allow": "Rechazar"
+    },
+    "unpair_confirmation": {
+      "title": "Confirmación de Desemparejamiento",
+      "confirmation": "¿Está seguro de desemparejar la Aplicación de Escritorio?",
+      "ok_button_text": "Desemparejar"
+    }
+  },
+  "time_zone_page": {
+    "title": "Configuración de Zona Horaria",
+    "success_msg": "Configuración de zona horaria exitosa. El dispositivo se reiniciará automáticamente en unos segundos",
+    "failure_msg": "No se pudo configurar la zona horaria seleccionada",
+    "please_wait": "Por favor, espere. Configuración de zona horaria del sistema en progreso",
+    "timezone_list": "Lista de Zonas Horarias",
+    "confirmation_dialog": {
+      "title": "Confirmación de Reinicio del Dispositivo",
+      "content": "La actualización de zona horaria requiere un reinicio del dispositivo. ¿Estás seguro de proceder y reiniciar el sistema?",
+      "ok": "Continuar"
+    }
+  },
+  "settings_page": {
+    "please_select_barcode": "Por favor, conecte el escáner de códigos de barras"
+  },
+  "logs_page": {
+    "measurement_logs": "Registros de medición",
+    "calibration_logs": "Registros calibración",
+    "reference_box_log": "Registros del cuadro de referencia",
+    "barcode_validation_log": "Registros de validación de códigos de barras",
+    "configuration_log": "Registros de configuración",
+    "measurement": {
+      "title": "Mediciones",
+      "annotation_image": "Imagen de Anotación",
+      "table": {
+        "status": "Estado",
+        "measurement_id": "ID de Medición",
+        "date_time": "Fecha y Hora",
+        "length": "Longitud",
+        "width": "Ancho",
+        "height": "Altura",
+        "actual_weight": "Peso Real",
+        "barcode": "Código Barras",
+        "image": "Imagen",
+        "view": "Ver",
+        "additional_info": "Información Adicional",
+        "upload_status": "Estado Carga",
+        "object_type": "Tipo de Objeto"
+      },
+      "popup": {
+        "title": "Detalles de Medición",
+        "img_loader_text": "Recuperación de Imagen",
+        "measurement_status": "Estado de la Medición",
+        "upload_status": "Estado de Carga",
+        "measurement_id_with_value": "ID de Medición : <0>{{m_id}}</0>",
+        "date_time_with_value": "Fecha y Hora : <0>{{date_time}}</0>",
+        "success": "Éxito",
+        "failed": "Fracaso"
+      },
+      "pending": {
+        "records": "Registros de Medición Pendientes",
+        "logs": "Depuraciones de Medición Pendientes",
+        "additional_images": "Imágenes Adicionales Pendientes",
+        "additional_videos": "Videos Adicionales Pendientes"
+      },
+      "status": {
+        "uploaded": "Subido",
+        "uploading": "Subiendo",
+        "yet_to_push": "Aún por presionar"
+      }
+    },
+    "calibration": {
+      "title": "Calibraciones",
+      "table": {
+        "status": "Estado",
+        "calibration_id": "ID de Calibración",
+        "date_time": "Fecha y Hora",
+        "height": "Altura",
+        "angle": "Ángulo",
+        "mode": "Modo",
+        "additional_info": "Información Adicional",
+        "upload_status": "Estado de Carga"
+      },
+      "pending": {
+        "records": "Registros Calibración Pendientes",
+        "logs": "Registros de Depuración de Calibración Pendientes"
+      }
+    },
+    "reference_box_logs": {
+      "title": "Registros de Caja de Referencia",
+      "table": {
+        "status": "Estado",
+        "measurement_id": "ID de Medición",
+        "date_time": "Fecha y Hora",
+        "barcode": "Código de Barras",
+        "length": "Longitud",
+        "width": "Ancho",
+        "height": "Altura",
+        "weight": "Peso",
+        "expected_length": "Longitud Esperada",
+        "expected_width": "Ancho Esperado",
+        "expected_height": "Altura Esperada",
+        "expected_weight": "Peso Esperado",
+        "image": "Imagen",
+        "additional_info": "Información Adicional",
+        "upload_status": "Estado de Carga",
+        "object_type": "Tipo de Objeto"
+      },
+      "pending": {
+        "records": "Registros de Caja de Referencia Pendientes",
+        "logs": "Depuraciones de Caja de Referencia Pendientes"
+      }
+    },
+    "barcode_validation_logs": {
+      "title": "Registros de Validación de Código de Barras",
+      "table": {
+        "status": "Estado",
+        "date_time": "Fecha y Hora",
+        "barcode": "Código de Barras",
+        "api_response_code": "Código de Respuesta de API",
+        "api_response": "Respuesta de API",
+        "upload_status": "Estado de Carga"
+      },
+      "pending": {
+        "records": "Registros de Validación de Código de Barras Pendientes"
+      }
+    },
+    "configuration": {
+      "title": "Configuraciones",
+      "table": {
+        "config_id": "Identificación",
+        "setting_group": "Grupo de configuración",
+        "previous_value": "Valor anterior",
+        "current_value": "Valor actual",
+        "updated_user_name": "Modificado por",
+        "modified_at": "Fecha y hora"
+      },
+      "pending": {
+        "records": "Registros de configuración del sistema pendientes"
+      },
+      "settting_group": {
+        "metrological": "Configuración Metrologica",
+        "ethernet": "Configuración Ethernet",
+        "wifi": "Configuración WiFi",
+        "weighing_scale": "Configuración de la báscula",
+        "barcode": "Configuración de código de barras",
+        "calibration": "Configuración de Calibración",
+        "system_settings": "configuración del sistema",
+        "unit": "configuración de la unidad"
+      },
+      "fields": {
+        "metrological_setting": "Configuración Metrologica",
+        "is_strict_mode_enabled": "Modo estricto habilitado",
+        "is_ethernet_enabled": "Ethernet habilitado",
+        "is_ethernet_static_enabled": "Ethernet estática habilitada",
+        "ethernet_alternate_dns": "Ethernet DNS alternativo",
+        "ethernet_gateway": "Puerta de enlace Ethernet",
+        "ethernet_network_type": "Tipo de red Ethernet",
+        "ethernet_preferred_dns": "DNS preferido de Ethernet",
+        "ethernet_ip": "IP Ethernet",
+        "ethernet_subnet": "Subred Ethernet",
+        "is_wifi_static_enabled": "WiFi estático habilitado",
+        "is_wifi_enabled": "Wi-Fi habilitado",
+        "wifi_alternate_dns": "WiFi DNS alternativo",
+        "wifi_gateway": "Puerta de enlace WiFi",
+        "wifi_network_type": "Tipo de red WiFi",
+        "wifi_preferred_dns": "WiFi DNS preferido",
+        "wifi_ip": "IP WiFi",
+        "wifi_subnet": "Subred Wi-Fi",
+        "weighing_scale_name": "Nombre de la báscula",
+        "weighing_scale_unit": "Unidad de balanza",
+        "weighing_scale_minimum_weight": "Báscula mín. Peso",
+        "barcode": "Código de Barras",
+        "calibration_mode": "Modo de calibración",
+        "calibration_setting": "Configuración de Calibración",
+        "is_zero_weight_check": "Comprobación de peso cero habilitada",
+        "dimension_unit": "Unidad de dimensión",
+        "weight_unit": "Unidad de peso",
+        "time_zone": "Zona Horaria",
+        "language": "Idioma",
+        "font_size": "Tamaño fuente",
+        "keyboard_language": "Idioma del teclado"
+      }
+    },
+    "download": {
+      "title": "Descargar registros",
+      "download_success": "Descargó y copió exitosamente los registros en el dispositivo USB seleccionado.",
+      "donwload_path": "Los registros se han copiado en la carpeta <0>{{donwload_path}}</0>.",
+      "in_progress": "Espere por favor. Descarga en curso.",
+      "info": {
+        "disk_size": "Tamaño del disco",
+        "download_info": "Asegúrese de conectar el dispositivo de almacenamiento USB.",
+        "log_count": "Número de registros",
+        "log_type": "tipo de registro",
+        "usb_selection": "Unidad USB"
+      },
+      "error": {
+        "low_usb_storage": "No hay suficiente espacio en el dispositivo USB seleccionado.",
+        "internet_required": "Asegúrese de que el dispositivo esté conectado a Internet.",
+        "usb_required": "No se encontró ningún dispositivo USB. Conecte un dispositivo de almacenamiento USB para continuar.",
+        "internet_issue": "Descarga fracasó. Por favor verifique la conexión a Internet.",
+        "no_usb_detected": "Descarga fracasó. No se encontró ningún dispositivo USB. Conecte el dispositivo de almacenamiento USB para continuar.",
+        "no_selected_usb_detected": "No se puede encontrar el dispositivo USB seleccionado. Por favor verifique la conexión del dispositivo USB.",
+        "log_type_required": "Seleccione al menos un tipo de registro para continuar.",
+        "unknown_error": "No se puede completar la descarga. Por favor contacte al administrador del sitio."
+      }
+    },
+    "additional_info": {
+      "calibration": {
+        "success": "Sistema calibrado exitosamente",
+        "height_failed": "Error de calibración del sistema. Altura del sistema: {{height}} y ángulo del sistema: {{angle}}deg",
+        "aurco_mark_not_detected": "Error de calibración del sistema. No se puede encontrar el marcador en la vista previa",
+        "depth_shift_random_points_failure": "Error de calibración del sistema. No se pueden detectar puntos de referencia",
+        "incorrect_weight": "Error de calibración del sistema. Verifique que la báscula no sea inestable/negativa/sobrepeso",
+        "scale_not_found": "Error de calibración del sistema. No se encontró la báscula. Asegúrese de que la báscula esté conectada o reinicie el sistema.",
+        "unable_to_get_data": "Error de calibración del sistema. No se puede obtener el peso de la báscula.",
+        "incorrect_weight_unit": "Error de calibración del sistema. La unidad de peso es incorrecta."
+      },
+      "measurement": {
+        "success": "Objeto medido con éxito.",
+        "scan_failed": "No se pueden medir las dimensiones del objeto.",
+        "aurco_mark_not_detected": "No se puede encontrar el marcador en la vista previa.",
+        "deviated_calibration": "No se pueden medir las dimensiones del objeto debido a una desviación de la configuración de calibración",
+        "dims_out_of_spec": "Dimensión de medición fuera de especificación.",
+        "exception_get_dimension": "Defecto de la cámara",
+        "invalid_dimensions": "Una o más dimensiones están fuera de los límites.",
+        "no_object_within_arena": "El objeto no está bien colocado dentro del rectángulo del área de trabajo.",
+        "object_angle_threshold_not_met": "El objeto está bastante inclinado, no está paralelo a la cámara.",
+        "object_at_edge": "El objeto está casi en el borde, colóquelo bien dentro del marco.",
+        "object_out_of_frame": "Objeto demasiado grande o muy cerca de otro objeto.",
+        "below_minimum_thickness": "El tamaño del objeto es demasiado pequeño para medirlo.",
+        "aurco_marker_is_moved": "El marcador Aruco se mueve de su posición calibrada",
+        "more_than_one_object": "Se encontró más de un objeto dentro del rectángulo del área de trabajo.",
+        "incorrect_weight": "Verifique que la báscula no sea inestable/negativa/sobrepeso",
+        "scale_not_found": "Balanza no encontrada. Asegúrese de que la báscula esté conectada o reinicie el sistema.",
+        "unable_to_get_data": "No se puede obtener el peso de la báscula.",
+        "incorrect_weight_unit": "La unidad de peso es incorrecta."
+      },
+      "test_measurement": {
+        "dim_check_fail": "El cuadro de referencia no cumplió con el valor de dimensión esperado",
+        "weight_check_fail": "La caja de referencia no cumplió con el valor de peso esperado",
+        "success": "Cuadro de referencia medido con éxito",
+        "both_dim_weight_check_failed": "La caja de referencia no cumplió con la dimensión esperada y el valor de peso real,",
+        "scan_failed": "No se pueden medir las dimensiones del objeto.",
+        "aurco_mark_not_detected": "No se puede encontrar el marcador en la vista previa.",
+        "deviated_calibration": "No se pueden medir las dimensiones del objeto debido a una desviación de la configuración de calibración",
+        "dims_out_of_spec": "Dimensión de medición fuera de especificación.",
+        "exception_get_dimension": "Defecto de la cámara",
+        "invalid_dimensions": "Una o más dimensiones están fuera de los límites.",
+        "no_object_within_arena": "El objeto no está bien colocado dentro del rectángulo del área de trabajo.",
+        "object_angle_threshold_not_met": "El objeto está bastante inclinado, no está paralelo a la cámara.",
+        "object_at_edge": "El objeto está casi en el borde, colóquelo bien dentro del marco.",
+        "object_out_of_frame": "Objeto demasiado grande o muy cerca de otro objeto",
+        "below_minimum_thickness": "El tamaño del objeto es demasiado pequeño para medirlo.",
+        "aurco_marker_is_moved": "El marcador Aruco se mueve de su posición calibrada",
+        "more_than_one_object": "Se encontró más de un objeto dentro del rectángulo del área de trabajo.",
+        "incorrect_weight": "Verifique que la báscula no sea inestable/negativa/sobrepeso",
+        "scale_not_found": "Balanza no encontrada. Asegúrese de que la báscula esté conectada o reinicie el sistema.",
+        "unable_to_get_data": "No se puede obtener el peso de la báscula.",
+        "incorrect_weight_unit": "La unidad de peso es incorrecta."
+      }
+    }
+  },
+  "additional_images": {
+    "title": "Imágenes Adicionales - Vista Previa",
+    "reset_confirmation": {
+      "title": "Confirmación de Restablecimiento",
+      "content": "¿Estás seguro de que deseas restablecer las imágenes capturadas?"
+    },
+    "image_skipped": "Imagen Saltada",
+    "yet_to_capture": "Aún no Capturada",
+    "captured_image_preview": "Imágenes Capturadas - Vista Previa",
+    "buttons": {
+      "skip": "Saltar",
+      "capture": "Capturar",
+      "reset": "Restablecer",
+      "re_capture": "Re-Capturar",
+      "next": "Siguiente"
+    },
+    "4k_not_supported": "Cámara 4K no compatible. <0></0> Procediendo con cámara de resolución normal."
+  },
+  "measurement_notes": {
+    "measurement_init": {
+      "system_state": "El sistema está LISTO para la medición.",
+      "measurement_instruction": "Asegura que el objeto está mayormente dentro del Area de Trabajo",
+      "select_barcode": "Por favor, conecta el escáner de códigos de barras",
+      "connect_barcode": "Por favor, conecta el escáner de códigos de barras",
+      "connect_weighing_scale": "Por favor, conecta la báscula",
+      "scan_barcode_trigger": "Escanear {{barcode_field}} para activar la Medición",
+      "scan_barcode_manual": "Escanear {{barcode_field}} y presionar Validar para Medir",
+      "volumentric_divisor_required": "Elija el divisor volumétrico para continuar con la medición",
+      "custom_fields_required": "Llenar los Campos Personalizados para seguir con la medición",
+      "scan_barcode_again": "Escanee {{barcode_field}} nuevamente para continuar con la medición",
+      "measurement_check_required": "Medir la caja de referencia para continuar",
+      "invalid_reference_box": "{{barcode_field}} no coincide con ninguna caja de referencia",
+      "measurement_check_barcode_scan": "Escanea el valor de la caja {{barcode_field}} para continuar",
+      "connect_weighing_scale_to_perform_measurement_check": "Para realizar la medición de referencia caja, conecte la báscula",
+      "connect_weighing_scale_to_perform_measurement_check_primary": "No se puede realizar la medición de la caja de referencia",
+      "connect_weighing_scale_to_perform_measurement_check_secondary": "Por favor, conecta la báscula para continuar",
+      "reference_box_doesnot_assign_to_site_primary": "No se ha asignado ninguna caja de referencia al sitio.",
+      "reference_box_doesnot_assign_to_site_secondary": "Por favor, asigna una caja de referencia para continuar",
+      "regex_validation_failed": "{{custom_field}} la validación de expresiones regulares falló"
+    },
+    "measurement_barcode_validate": {
+      "validation_in_progress": "Validación de {{barcode_field}} en progreso",
+      "validation_success": "Validación de {{barcode_field}} exitosa",
+      "insert_minimum_of_characters": "{{barcode_field}} es demasiado corto, se necesitan al menos {{minimum_charcters}} caracteres",
+      "barcode_maximum_length_has_been_reached": "{{barcode_field}} es demasiado largo, se esperan como máximo {{maximum_charcters}} caracteres",
+      "invalid_regex_format": "{{barcode_field}} la validación de expresiones regulares falló",
+      "api_validation_failed": "Validación de API de {{barcode_field}} fallida. {{message}}",
+      "invalid_reference_box_barcode": "{{barcode_field}} no coincide con ninguna caja de referencia",
+      "already_scanned": "Este {{barcode_field}} ya ha sido escaneado antes de la medición",
+      "barcode_already_exists": "{{barcode_field}} ya existe",
+      "reference_box_barcode": "{{barcode_field}} reservado para la caja de referencia",
+      "barcode_added_successfully": "{{barcode_field}} agregado exitosamente",
+      "expected_response_not_matched": "La respuesta esperada no coincidió, validación fallida",
+      "retry_cancelled": "Validación de API de {{barcode_field}} cancelada",
+      "connect_weighing_scale_to_perform_measurement_check": "Para realizar la medición de referencia caja, conecte la báscula",
+      "units_mismatched": "Unidades de la caja de referencia no coinciden con el sistema",
+      "network_error": "No se puede obtener información, por favor verifique su conexión de red."
+    },
+    "measurement_ready": {
+      "system_ready": "El sistema está listo para la medición",
+      "note": "Asegúrate que la objeto esté dentro del rectángulo del Área Trabajo",
+      "note_click_measure": "Asegúrese de que el objeto permanezca en el área de trabajo. Haga clic en Medir para continuar",
+      "wait_for_weighing_scale_trigger": "Esperando a que se coloque el objeto en la báscula",
+      "wait_for_weighing_scale_trigger_timeout": "Coloca el objeto en la báscula antes de que se agote el tiempo",
+      "wait_for_validate_frame_timeout": "Esperando que se coloque el objeto en el rectángulo del área de trabajo",
+      "wait_for_validate_frame": "Coloque el objeto en el rectángulo del área de trabajo antes de que se agote el tiempo."
+    },
+    "measuring_state": {
+      "measurement_in_progress": "Midiendo...",
+      "measurement_retry": "Reintentando la medición... {{retry_count}}"
+    },
+    "test_measurement_result": {
+      "success": "La caja de referencia se midió exitosamente"
+    },
+    "measurement_result": {
+      "invalid_barcode": "{{barcode_field}} no coincide con ninguna caja de referencia",
+      "exception_get_dimension": "No se puede obtener datos de la cámara",
+      "scan_failed": "No se puede medir las dimensiones del objeto",
+      "something_went_wrong": "No se puede medir las dimensiones del objeto",
+      "no_object_within_arena": "El objeto no está en el rectángulo del Área de Trabajo",
+      "object_out_of_frame": "Objeto demasiado grande o muy cerca de otro objeto",
+      "dims_out_of_spec": "La dimensión del objeto está fuera de especificación",
+      "object_at_edge": "Objeto fuera del Área de Trabajo, por favor, muévelo dentro",
+      "deviated_calibration": "No se pueden medir las dimensiones del objeto debido a una desviación de la configuración de calibración",
+      "object_angle_threshold_not_met": "La medición falló, el objeto está desigual o inclinado",
+      "incorrect_weight_unit": "La unidad de peso es incorrecta",
+      "incorrect_weight": "Verifique que la báscula no sea inestable/negativa/sobrepeso",
+      "negative_weight": "Se detectó peso negativo. Verifique que el peso sea cero en la báscula.",
+      "scale_not_found": "Báscula no encontrada. Asegúrese de que la balanza esté conectada",
+      "unable_to_get_data": "No se puede leer datos de la balanza",
+      "success": "Objeto medido con éxito",
+      "dim_check_fail": "La caja de referencia no cumplió con el valor de dimensión esperado",
+      "weight_check_fail": "La caja de referencia no cumplió con el valor de peso esperado",
+      "both_dim_weight_check_failed": "Caja de referencia no cumple medidas o peso",
+      "zero_weight": "Fallo de la medición debido a peso cero",
+      "connect_weighinging_scale_to_perform_measurement_check": "Conecte la báscula para realizar medición de caja de referencia",
+      "captured_4k_successfully": "Objeto medido con éxito. Imagen 4K capturada con éxito",
+      "capture_4k_failed": "Objeto medido con éxito. <0>Fallo al capturar imagen 4K</0>",
+      "units_mismatched": "Unidades de la caja de referencia no coinciden con el sistema unidades",
+      "aurco_mark_not_detected": "No se puede encontrar el marcador en la vista previa",
+      "below_minimum_thickness": "El tamaño del objeto es demasiado pequeño para la medición.",
+      "measurement_out_of_operating_temperature": "Temperatura de la cámara fuera de rango",
+      "more_than_one_object": "Se encontró más de un objeto dentro del rectángulo del área de trabajo.",
+      "yet_to_calibrate": "La calibración ha fallado. Vuelva a calibrar para continuar.",
+      "aurco_marker_is_moved": "El marcador Aruco se mueve de su posición calibrada"
+    },
+    "measurement_discard": {
+      "measurement_discarded": "Carga de la medición cancelada por el usuario, se descartó la medición"
+    },
+    "measurement_upload": {
+      "internal_server_error": "No se puede conectar al servidor, por favor verifica tu conexión a internet",
+      "unable_to_connect_to_server": "No se puede conectar al servidor, por favor verifica tu conexión a internet",
+      "uploading": "Subiendo datos de medición",
+      "cancel_data_push_to_forge": "Cancelando carga de medición",
+      "too_much_data_to_push_to_forge": "Límite de almacenamiento alcanzado. La carga de datos es demasiado lenta. Verifique su conexión de red.",
+      "queue_is_full": "Límite de almacenamiento alcanzado. La carga de datos es demasiado lenta. Verifique su conexión de red.",
+      "data_pushed_to_scheduler": "La carga de medición está programada",
+      "data_pushed_to_forge": "Datos de medición cargados con éxito",
+      "data_upload_to_forge": "Datos de medición cargados con éxito",
+      "data_pushed_to_queue": "Datos de medición añadidos a la cola con éxito",
+      "retrying_upload": "Reintentando carga de medición...",
+      "retake_measurement": "No se puede realizar la medición debido a un error en la cámara, por favor inténtalo de nuevo.",
+      "timeout_for_no_object_within_arena": "El tiempo de espera se produjo debido a que el objeto no se colocó correctamente dentro del rectángulo del área de trabajo",
+      "timeout_for_object_out_of_frame": "El tiempo de espera se produjo debido a que el objeto era demasiado grande o estaba demasiado cerca de otro objeto",
+      "timeout_for_incorrect_weight": "El tiempo de espera se produjo debido a un peso incorrecto. Comprueba si el peso es estable",
+      "timeout_for_unable_to_get_weight": "Se agotó el tiempo de espera debido a que no se pudo obtener el peso de la báscula",
+      "timeout_for_zero_weight": "Se ha agotado el tiempo de espera debido a que la báscula tiene peso cero",
+      "custom_service_unavailable": "La carga de mediciones falló a través del servicio personalizado",
+      "something_went_wrong": "Algo salió mal"
+    },
+    "measurement_complete": {
+      "press_clear_to_proceed": "Presiona BORRAR para continuar."
+    },
+    "ntep": {
+      "message": "Mantenga solo un objeto dentro del área de trabajo."
+    }
+  },
+  "measurement_page": {
+    "title": "Medición",
+    "additional_barcode": {
+      "title": "Código de Barras Adicional",
+      "add_barcode_text": "Escanear códigos de barras para agregar",
+      "proceed": "Continuar",
+      "cancel": "Cancelar",
+      "reset": "Restablecer",
+      "no_of_barcodes_scanned": "Número de códigos de barras escaneados: "
+    },
+    "barcode_validation_popup": {
+      "title": "Validando {{barcode_field}}",
+      "retrying": "Reintentando"
+    },
+    "calibration_dialog": {
+      "title": "Alerta",
+      "content": "Por favor, calibra el sistema antes de proceder con la medición",
+      "button": "Calibrar"
+    },
+    "queue_full_dialog": {
+      "title": "Alerta",
+      "content": "Límite de almacenamiento alcanzado. La carga de datos es demasiado lenta. Verifique su conexión de red.",
+      "button": "De acuerdo"
+    },
+    "bottle_mode_confirmation": {
+      "title": "Confirmación",
+      "content": "Si el modo de botella está habilitado, la altura y longitud del objeto se intercambiarán. ¿Estás seguro de que deseas continuar?",
+      "proceed": "Continuar",
+      "cancel": "Cancelar"
+    },
+    "upload_retry_dialog": {
+      "title": "Reintento de Carga de Medición",
+      "message": "Reintentando"
+    },
+    "measurement_data": {
+      "length": "Longitud",
+      "width": "Ancho",
+      "height": "Altura",
+      "actual_weight": "Peso Real",
+      "cubic_volume": "Volumen Cúbico",
+      "real_volume": "Volumen Real",
+      "volumetric_weight": "Peso Volumétrico",
+      "volumetric_divisor": "Divisor Volumétrico"
+    },
+    "navigate_confirmation_popup": {
+      "title": "Confirmación",
+      "content": "Estás en medio de un flujo de medición, ¿estás seguro de que deseas salir de la página?"
+    },
+    "button": {
+      "measure": "Medir",
+      "validate": "Validar",
+      "clear": "Borrar",
+      "clearing_in": "Borrando en",
+      "auto_save_in": "Guardando automáticamente en",
+      "measuring_in": "Midiendo en",
+      "timing_out": "Tiempo Fuera",
+      "accept": "Aceptar",
+      "waiting_for_object": "Esperando objeto"
+    },
+    "dialog_titles": {
+      "measurement_result": "Resultado de Medición",
+      "qr_scan": "Escanear QR"
+    },
+    "bottle_mode": "Modo botella"
+  },
+  "dims_spec_page": {
+    "title": "Especificaciones de Cuboides e Irregulares",
+    "dims_measurement_table": {
+      "title": "La siguiente tabla muestra la medida más pequeña y más grande en cada eje con una desviación de 0.5 cm",
+      "ntep_title": "La siguiente tabla muestra la medida más pequeña y más grande en cada eje con una división de 0,5 pulgadas tanto para objetos regulares como irregulares.",
+      "dimensions": "Dimensiones ({{unit}})",
+      "minimum": "Mín ({{unit}})",
+      "maximum": "Máx ({{unit}})",
+      "minimum_irregular": "Mín Irregular ({{unit}})",
+      "maximum_irregular": "Máx Irregular ({{unit}})",
+      "length": "longitud",
+      "width": "ancho",
+      "height": "altura"
+    },
+    "measurement_rangle_table": {
+      "title": "La siguiente tabla hace referencia al tamaño del paquete más grande para la altura indicada en la columna de altura",
+      "height": "Altura ({{unit}})",
+      "max_length": "Máx Longitud ({{unit}})",
+      "max_width": "Máx Ancho ({{unit}})"
+    },
+    "limitation_title": "Limitación",
+    "ntep_limitation": "Para dimensionar objetos singulares, estáticos, opacos, cúbicos y no cúbicos, excepto que tengan esquinas afiladas como punto de medición.",
+    "setup_height": "Altura de Configuración: {{setup_height}} M",
+    "setup_height_ntep": "Altura de Configuración : {{setup_height}} INCH (NTEP)"
+  },
+  "operator_page": {
+    "title": "Selecciona el Operador",
+    "system_error": {
+      "operator_not_found": "No se han asignado operadores al sistema, por favor contacta a tu Administrador",
+      "system_suspended": "El sistema está suspendido, por favor, contacta a tu Administrador.",
+      "subscription_expired": "La suscripción ha expirado, por favor contacta a tu Administrador.",
+      "subscription_not_started": "La suscripción no está activa, por favor contacta a tu Administrador.",
+      "system_not_assigned": "El sistema no está asignado a un sitio, por favor contacta a tu Administrador.",
+      "system_not_found": "Sistema no encontrado",
+      "network_error": "No se puede recuperar información de Forge. Actualice la página y asegúrese de que su conexión a Internet esté activa."
+    },
+    "loading_data": "Recuperando datos de Forge",
+    "syncing_time": "Esperando tiempo para sincronizar",
+    "loading_data_1": "Reintentando recuperar datos de Forge",
+    "syncing_time_1": "Reintentando tiempo para sincronizar"
+  },
+  "common": {
+    "button": {
+      "goToMeasure": "Ir a Medir",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "discard": "Descartar",
+      "save": "Ahorrar",
+      "close": "Cerrar",
+      "yes": "Sí",
+      "no": "No",
+      "ok": "Aceptar",
+      "download": "Descargar",
+      "accept": "Aceptar",
+      "add": "Agregar"
+    },
+    "message": {
+      "NA": "N/A",
+      "none": "Ninguna",
+      "data_saved_successfully": "Datos guardados con éxito",
+      "failed_to_save_data": "Fallo al Guardar los Datos",
+      "no_data_found": "No se encontraron datos",
+      "loading": "Cargando ...",
+      "loading_text": "Cargando",
+      "read_more": "Leer más",
+      "show_less": "Mostrar menos",
+      "null_frame": "Error al obtener el cuadro de la cámara",
+      "network_error": "No puedo obtener información, verifique su conexión de red.",
+      "device_restart": "El sistema se reiniciará automáticamente en {{seconds}} segundos",
+      "page": "Página",
+      "showing_count": "Mostrando <0>{{from}}</0> a <0>{{to}}</0>",
+      "permission_denied": "No tienes permiso para cambiar la configuración.",
+      "please_wait":"espere por favor"
+    }
+  },
+  "reference_box_page": {
+    "title": "Cajas de Referencia",
+    "max_measurement_count": "Conteo de verificación de medición",
+    "measure_count_after_reference_box": "Conteo de medición después de la medición de la caja de referencia",
+    "table": {
+      "name": "Nombre",
+      "barcode": "Código de Barras",
+      "length": "Longitud",
+      "width": "Ancho",
+      "height": "Altura",
+      "actual_weight": "Peso Real",
+      "dimension_tolerance": "Tolerancia de Dimensión",
+      "weight_tolerance": "Tolerancia de Peso"
+    }
+  },
+  "logout_page": {
+    "title": "Cerrar Sesión",
+    "content": "¿Estás seguro de que deseas cerrar la sesión?"
+  },
+  "user_info": {
+    "name": "Nombre",
+    "mail": "Correo"
+  },
+  "scale_reconnect_dialog": {
+    "title": "Báscula detectada",
+    "content": "Por favor, calibra el sistema antes de proceder con la medición.Asegúrese de que la unidad de escala seleccionada y la unidad de la balanza sean las mismas.",
+    "scale_detached": "Balanza de pesaje separada",
+    "button": "Calibrar",
+    "content_2": "Los datos de medición actuales se perderán",
+    "detach_content": "La báscula está desmontada.",
+    "ok": "bueno",
+    "button_2": "Ajustes de Escala"
+  },
+  "server_connection_failed": "¡No se puede conectar al servidor!",
+  "something_went_wrong": "Algo salió mal",
+  "workflow_update_popup": {
+    "title": "Notificación - se actualizó el flujo de trabajo",
+    "content": "Quieres descargar el flujo de trabajo más reciente?",
+    "content_measurement_reset": "Los datos de medición en curso se restablecerán durante este proceso. Quieres descargar el flujo de trabajo más reciente?",
+    "yes": "Sí",
+    "later": "Más tarde"
+  },
+  "custom_flow_common_text": {
+    "submit": "ENVIAR",
+    "select": "Seleccionar",
+    "rendering_page": "Página de renderización",
+    "service_unavailable": "Incapaces de proceder. Comuníquese con el administrador del sitio",
+    "custom_workflow_content": "<0> Nota </0>: sus datos se perderán en caso de actualización del flujo de trabajo y se le dirigirá a la página Menú.",
+    "scale_navigate_warning": "<0> Nota </0>: El flujo de medición se perderá porque la báscula se desconectó durante el proceso.",
+    "device_update_warning": "<0> Nota </0>: Tus datos se perderán si hay mediciones pendientes disponibles."
+  },
+  "device_config_download": {
+    "in_progress": "Descarga de configuración del dispositivo en curso",
+    "device_config_download_failed": "No se pudo descargar la configuración del dispositivo. Por favor, inténtelo de nuevo más tarde",
+    "weighing_scale_change": "La báscula se cambió en la fragua. Vaya a la configuración de escala y seleccione la unidad adecuada para continuar",
+    "timezone_change": "La zona horaria se cambió en Forge. La actualización de la zona horaria requiere reiniciar el dispositivo. Haga clic en Continuar para reiniciar el dispositivo.",
+    "proceed": "Proceder",
+    "scale_settings": "Configuración de escala",
+    "title": "Actualización de la configuración del sistema"
+  }
+}

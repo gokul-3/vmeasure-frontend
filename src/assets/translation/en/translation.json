@@ -1,0 +1,1260 @@
+{
+  "demo_mode": {
+    "title": "Demo Mode",
+    "content": "Ultima device can be use in demo mode with following conditions.",
+    "on_complete": "Demo Mode Completed.",
+    "button_accept": "Accept",
+    "button_deny": "Deny",
+    "not_applicable": "NA",
+    "notes": {
+      "line1": "Use <0>1234</0> as default password for demo user.",
+      "line2": "You can take <0>maximum {{measurement_count}} measurements</0> in demo mode.",
+      "line3": "After <0>{{measurement_count}} measurements</0>, Device will be automatically rebooted.",
+      "line4": "Measurments will not be uploaded to Forge.",
+      "line5": "You can Logout/Reboot anytime to turn off the demo mode.",
+      "line6": "Once demo mode turned off, you cannot turn on demo mode again."
+    },
+    "top_bar": {
+      "title": "*Demo Mode ({{count}} Measurements Remaining)*"
+    }
+  },
+  "login_page": {
+    "title": "Login",
+    "invalid_pin": "Invalid PIN. Please try again.",
+    "network_error": "Unable to fetch information, please check your network connection.",
+    "authenticating": "Authenticating ...",
+    "keypad_login": "Login"
+  },
+  "calibration_page": {
+    "page_title": "Calibration",
+    "calibration_expires_at": "Expires at :",
+    "last_calibrated_mode": "Current calibrated mode",
+    "calibration_expired": "Expired",
+    "calibration_status": "Calibration Status",
+    "small_parcel_envelope_subtitle": "1.1 {{weighing_scale}} (ENVELOPE MODE)",
+    "small_parcel_mode": "SMALL PARCEL MODE",
+    "small_parcel_non_envelope_subtitle": "1.1 {{weighing_scale}} (NON ENVELOPE MODE)",
+    "all_parcel_mode": "ALL PARCEL MODE",
+    "all_parcel_envelope_subtitle": "1.5 {{weighing_scale}} (ENVELOPE MODE)",
+    "all_parcel_non_envelope_subtitle": "1.5 {{weighing_scale}} (NON ENVELOPE MODE)",
+    "white_parcel_mode": "WHITE GOODS MODE",
+    "white_parcel_mode_subtitle": "2.2 {{weighing_scale}}",
+    "Calibrate": "CALIBRATE",
+    "Recalibrate": "Re-calibrate",
+    "calibration_in_progress": "Calibration in progress",
+    "calibration_will_start_in_xx_seconds": "Calibration will start in %d seconds",
+    "envelope_mode_content": "Ensure envelope plate is PRESENT in work area, ensure weight value in scale is ZERO and CONFIRM to proceed with calibration",
+    "envelope_mode_title": "Envelope Mode",
+    "non_envelope_mode_content": "Ensure envelope plate is NOT PRESENT in work area and CONFIRM to proceed with calibration",
+    "non_envelope_mode_title": "Non Envelope Mode",
+    "keep_ground_clear": "PLEASE KEEP THE WORKAREA CLEAR",
+    "please_choose_setup_height": "PLEASE CHOOSE SETUP HEIGHT",
+    "auto_calibration": "AUTO CALIBRATION",
+    "setup_mode": "SETUP MODE",
+    "calibration_messages": {
+      "calibrate_success": "SYSTEM CALIBRATED SUCCESSFULLY",
+      "calibrate_success_msg": "System is ready for the measurement",
+      "calibrate_failed": "SYSTEM CALIBRATION FAILED",
+      "depth_shift_random_points_failure": "Unable to detect reference points",
+      "depth_shift_reference_points_failure": "Depth shift reference points failure",
+      "aurco_mark_not_detected": "Unable to find marker in the camera preview",
+      "height_failed": "System doesn't meet height/angle threshold",
+      "incorrect_weight_unit": "Incorrect weight unit, unable to validate weight",
+      "incorrect_weight": "Please check the weighing scale for unstable / negative / over weight.",
+      "scale_not_found": "Weighing scale not found, ensure Weighing scale is connected properly",
+      "unable_to_get_data": "Unable to get the weight from weighing scale",
+      "exception_do_calibration": "Unable to read image data from camera",
+      "calibration_out_of_operating_temperature": "Camera Temperature Out of Range.",
+      "invalid_setup_height": "Invalid setup height",
+      "negative_weight": "Negative weight detected, Please check weight is Zero in the Weighing scale"
+    },
+    "calibration_note": {
+      "note": "Note:",
+      "note_for_1.1_line1": "1.1 and 1.5 Envelope Plates are different, using the 1.5 Plate in 1.1 mode would cause failure measurements.",
+      "note_for_1.1_line2": "1.1 Envelope Plate Pillars are 2cm tall.",
+      "note_for_1.5_line1": "1.5 and 1.1 Envelope Plates are different, using the 1.5 Plate in 1.1 mode would cause failure measurements.",
+      "note_for_1.5_line2": "1.5 Envelope Plate Pillars are 5cm tall."
+    },
+    "queue_full_dialog": {
+      "title": "Alert",
+      "content": "Storage Limit Reached. Data upload is too slow, please verify your network connection.",
+      "button": "Ok"
+    },
+    "stream_message": {
+      "blue_circle_notes": "Blue circle represents zero degree",
+      "black_circle_notes": "Black circle represents current angle"
+    }
+  },
+  "scale_page": {
+    "title": "Weighing Scale Configuration",
+    "scale_unit": "Scale Unit",
+    "auto_detect_unit": "Auto Detect Unit",
+    "default_minimum_weight": "Default Minimum Weight",
+    "weighing_scale_save_success_and_do_calibrate": "Weighing scale settings updated, Please Calibrate before proceeding",
+    "weighing_scale_save_success": "Weighing scale settings updated",
+    "scale": "Scale",
+    "confirmation_dialog": {
+      "title": "Confirmation",
+      "content": "Please make sure the selected scale unit and weighing scale unit are same.",
+      "ok": "Ok"
+    },
+    "error_messages": {
+      "incorrect_weight_unit": "Incorrect weight unit, unable to validate weight",
+      "incorrect_weight": "Please check the weighing scale for unstable / negative / over weight.",
+      "negative_weight": "Negative weight detected, Please check weight is Zero in the Weighing scale",
+      "scale_not_found": "Weighing scale not found, ensure Weighing scale is connected properly",
+      "unable_to_get_data": "Unable to get the weight from weighing scale",
+      "something_went_wrong": "Something went wrong"
+    },
+    "info": {
+      "title": "Scale - Standards Compatibility"
+    },
+    "scale_connection": {
+      "title": "Scale Connection Status",
+      "status": {
+        "connected": "Connected",
+        "not_connected": "Not Connected"
+      }
+    }
+  },
+  "barcode_page": {
+    "page_title": "Barcode Settings",
+    "barcode": "Barcode",
+    "barcode_connection": {
+      "title": "Barcode Connection Status",
+      "status": {
+        "connected": "Connected",
+        "not_connected": "Not Connected"
+      }
+    },
+    "unable_to_detect_barcode": "Unable to DETECT barcode scanner. Please check the connection or contact tech support",
+    "note_hid_scanner_line1": "1. Please ensure only one HID barcode is connected.",
+    "note_hid_scanner_line2": "2. Please ensure barcode is in HID mode.",
+    "note_hid_scanner_line3": "3. Keyboard should not be connected while saving HID barcode.",
+    "more_than_one_hid_device_connected": "Please ensure only one HID barcode is connected"
+  },
+  "units_page": {
+    "measurement_units": "Measurement Units",
+    "page_title": "Units Settings",
+    "info": {
+      "title": "Unit - Standards Compatibility",
+      "unit": "Unit"
+    }
+  },
+  "configurations": {
+    "page_title": "Configurations",
+    "notes": "Notes",
+    "calibration": {
+      "page_title": "Calibration Settings",
+      "calibration_settings": "Calibration Type",
+      "zero_tare_calibration": "Zero Weight Check",
+      "calibration_settings_saved": "Data Saved Successfully. Please Calibrate before proceeding.",
+      "legacy": "Legacy",
+      "marker_based": "Marker Based",
+      "region_based": "Region Based",
+      "notes_legacy": {
+        "line1": "Keep the surroundings clean in order to make successful measurement"
+      },
+      "notes_marker_based": {
+        "line1": "Make sure that aruco marker is placed within measurable region",
+        "line2": "1.1 meter height - <0>10x10 cm / 3.94x3.94 in</0> aruco marker",
+        "line3": "1.5 meter height - <0>10x10 cm / 3.94x3.94 in</0> aruco marker",
+        "line4": "2.2 meter height - <0>20x20 cm / 7.87x7.87 in</0> aruco marker"
+      },
+      "notes_region_based": {
+        "line1": "Post calibration a square marker is shown in preview to indicate the <0>reference</0> region",
+        "line2": "Keep the <0>reference region clean</0> in order to make successful measurement"
+      }
+    },
+    "measurements": {
+      "metrological_standards": "Metrological  Standards",
+      "page_title": "Metrological Settings",
+      "strict_mode": "Strict Mode",
+      "ntep_settings_saved": "Data Saved Successfully. Please Calibrate before proceeding.",
+      "ntep_notification": "Device is in NTEP mode. Please disable NTEP to enable the above options.",
+      "default": "Default",
+      "raw": "Raw",
+      "notes_default": {
+        "line1": "For object height above <0>0.5 cm/0.2 inch</0>, Step Size is <0>0.5 cm/0.2 inch</0>",
+        "line2": "For object height below <0>0.5 cm/0.2 inch</0>, Step Size is <0>0.1 cm/0.1 inch</0>",
+        "line3": "For object height below <0>0.1 inch</0>, Step size is <0>0.04 inch</0>",
+        "line4": "Dimension unit <0>mm</0> does not support <0>Metrological Standards</0>"
+      },
+      "notes_raw": {
+        "line1": "For object height above <0>0.1 inch</0>, Step Size is <0>0.1 cm/0.1 inch</0>",
+        "line2": "For object height below <0>0.1 inch</0>, Step Size is <0>0.04 inch</0>",
+        "line3": "Dimension unit <0>mm</0> does not support <0>Metrological standards</0>"
+      },
+      "notes_ntep": {
+        "line1": "1. In NTEP mode the measurement step size will be <0>0.5 inch</0>"
+      },
+      "ntep": {
+        "popup": {
+          "title": "NTEP Confirmation",
+          "description": "Following changes will be auto applied once after NTEP mode enabled",
+          "point1": "1. Calibration status will be reset and device needs to be re-calibrated.",
+          "point2": "2. Any non-NTEP scale connected with device, will be disconnected.",
+          "point3": "3. Any non-NTEP dimension unit detected, will be reset to <0>Inch-Pound</0>.",
+          "point4": "4. NTEP mode will only support <0>1.5</0> setup height.",
+          "point5": "5. Default minimum weight for weighing scale will be reset to 0g.",
+          "point6": "6. NTEP mode will not support volumetric value round-off methods."
+        }
+      }
+    },
+    "restricted_conflicts": {
+      "title": "Some of the features were not available in System",
+      "volumetric_round_off": "Volumetric round-off method - Due to NTEP is enabled",
+      "4k_not_found": "4K Images - Due to 4k camera not available",
+      "invalid_ssl_cert": "Invalid SSL Certificates provided for ultima remote service",
+      "custom_workflow_app_not_found": "Custom workflow service enabled in Forge but the service not found in device. Proceeding with default workflow."
+    },
+    "certificates": {
+      "form_title": "Certificates",
+      "ntep_title": "NTEP"
+    },
+    "timezone": {
+      "page_title": "Timezone"
+    },
+    "language_settings": {
+      "title": "System Settings",
+      "page_title": "System Settings",
+      "language": "Language",
+      "keyboard_language": "Keyboard Language",
+      "confirmation_dialog": {
+        "title": "Confirmation",
+        "content": "Are you sure you want to change the language settings? This will update the language/font used throughout the application.",
+        "ok": "Confirm"
+      }
+    },
+    "FontSettings": {
+      "font_size": "Font Size",
+      "default": "Default",
+      "large": "Large"
+    },
+    "VolumeSetting": {
+      "title": "Volume"
+    },
+    "printer_settings": {
+      "page_title": "Printer Configuration",
+      "available_printers": "Available Printers",
+      "add_printer": "Add Printer",
+      "active_jobs": "Active Jobs",
+      "test_print": "Test Print",
+      "printer_model": "Model",
+      "edit_option": "Edit Printer Options",
+      "general": "General",
+      "clear_all": "Clear All",
+      "no_active_jobs": "No Active Jobs",
+      "name": "<0> Name </0> <1>*</1>",
+      "description": "Description",
+      "location": "Location",
+      "connection": "Connection",
+      "set_as_default": "Set as Default",
+      "make": "<0> Make </0> <1>*</1>",
+      "model": "<0> Model </0> <1>*</1>",
+      "fill_required_fields": "Please Fill Required Fields",
+      "use_printer_by_default": " Use Printer by Default",
+      "printer_options": "Printer Options",
+      "no_printers": "No Printers Available",
+      "width": "Width",
+      "height": "Height",
+      "unit": "Unit",
+      "saved": "Saved",
+      "timer": "Auto Close Timer",
+      "auto_print": "Auto Print",
+      "re_print": "Reprint",
+      "queue_size": "Printer Queue Size",
+      "use_by_default": "Set Default",
+      "print_settings": "Print Settings",
+      "confirmation_dialog": {
+        "title": "Confirmation",
+        "content": "Are you sure you want to remove the Printer.",
+        "ok": "Confirm"
+      },
+      "printer_error": {
+        "api_failed": "API Failed",
+        "printer_deleted_successfully": "Printer deleted successfully",
+        "printer_added_successfully": "Printer added successfully",
+        "please_fill_width_and_height": "Please fill width and height",
+        "something_went_wrong": "Something went wrong",
+        "data_saved_successfully": "Data saved successfully",
+        "unable_to_get_available_printers": "Unable to get Available Printers",
+        "unable_to_get_printer_list": "Unable to get Printer List",
+        "unable_to_get_manufacturers": "Unable to get Manufacturers",
+        "unable_to_add_printer": "Unable to add Printers",
+        "unable_to_add_printer_settings": "Unable to add Printer Settings",
+        "failed_to_print": "Failed to Print",
+        "failed_to_print_testpage": "Failed to Print TestPage",
+        "unable_to_get_drivers": "Unable to get Drivers",
+        "unable_to_get_active_jobs": "Unable to get Active Jobs",
+        "unable_to_remove_printer": "Unable to remove printer",
+        "unable_to_cancel_jobs": "Unable to Cancel jobs",
+        "unable_to_get_default_printer": "Unable to get Default printer",
+        "unable_to_set_default_printer": "Unable to set Default Printer",
+        "unable_to_get_active_printer": "Unable to get Active Printer",
+        "unable_to_get_printer_settings": "Unable to get Printer Settings",
+        "max_queue_filled": "Maximum Printer queue size is filled",
+        "unable_to_resume_job": "Unable to Resume Job",
+        "unable_to_hold_job": "Unable to Hold Job",
+        "unable_to_reprint_job": "Unable to Reprint Job",
+        "unable_to_move_job": "Unable to Move Job",
+        "unable_to_move_all_job": "Unable to Move all Job",
+        "unable_to_disable_printer": "Unable to disable Printer",
+        "unable_to_enable_printer": "Unable to enable Printer",
+        "unable_to_allow_user": "Unable to allow user",
+        "unable_to_prevent_user": "Unable to prevent user",
+        "ipp_not_supported": "Printer is not supporting IPP"
+      }
+    },
+    "custom_settings": {
+      "title": "Custom Configuration",
+      "page_title": "Custom Service Settings"
+    },
+    "tigger_service": {
+      "popup_timer": "Trigger Service Popup Time"
+    }
+  },
+  "menu": {
+    "calibration": "Calibration",
+    "units": "Units",
+    "scale": "Scale",
+    "network": "Network",
+    "update": "Update",
+    "barcode": "Barcode",
+    "reference_box": "Reference Box",
+    "configuration": "Configuration",
+    "desktop_app": "Desktop Connect"
+  },
+  "information_page": {
+    "tab_title": {
+      "system_info": "System Information",
+      "dims_spec": "Dimension Specifications",
+      "workflow_info": "Workflow Information"
+    },
+    "system_info": {
+      "system_name": "System Name",
+      "system_friendly_name": "System Name",
+      "site_name": "Site Name",
+      "cc": "CC:",
+      "config_group_name": "Config Group Name",
+      "file_webhook_name": "File Hook Name",
+      "manufacturer": "Manufacturer",
+      "model": "Model",
+      "operating_temperature": "Operating Temperature",
+      "serial_number": "Serial Number",
+      "webhooks": "Webhook Name",
+      "workflow_name": "Workflow Name",
+      "app_version": "Application Version"
+    },
+    "workflow_info": {
+      "measurement_trigger": {
+        "title": "Measurement Trigger",
+        "source": "Source",
+        "timeout": "Timeout"
+      },
+      "support_trigger": {
+        "title": "Support Trigger",
+        "weighing_Scale_trigger": "Weighing Scale Trigger",
+        "smart_measurement_trigger": "Smart Measurement Trigger"
+      },
+      "additional_metrics": {
+        "title": "Additional Metrics",
+        "volumetric_weight": "Volumetric Weight",
+        "volumetric_round_off_method": "Volumetric Round Off Method",
+        "real_volume": "Real Volume",
+        "cubic_volume": "Cubic Volume"
+      },
+      "measurement_result": {
+        "title": "Measurement Result",
+        "result_timeout": "Result Timeout",
+        "measurement_reject": "Measurement Reject",
+        "additional_result": "Additional Result"
+      },
+      "measurment_config": {
+        "title": "Measurement Configuration",
+        "measurement_check": "Measurement Check",
+        "measurement_retry": "Measurement Retry",
+        "measurement_retry_count": "Retry Count"
+      },
+      "workflow_config": {
+        "title": "Workflow Configuration",
+        "operating_mode": "Operating Mode",
+        "upload_mode": "Upload Mode",
+        "queue_size": "Queue Size",
+        "sync_mode": "Sync Mode"
+      },
+      "addon_features": {
+        "title": "Additional Features",
+        "bottle_mode": "Bottle Mode",
+        "4k_camera": "4K Camera "
+      },
+      "workflow_config_values": {
+        "master": "Master",
+        "slave": "Slave",
+        "asynchronous": "Asynchronous",
+        "synchronous": "Synchronous",
+        "barcode": "Barcode",
+        "remote": "Remote",
+        "Barcode": "Barcode",
+        "Remote": "Remote",
+        "manual": "Default",
+        "default": "Default",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "cubic_volume": "Cubic Volume",
+        "real_volume": "Real Volume",
+        "volumetric_weight": "Volumetric Weight",
+        "scheduled_retry": "Scheduled",
+        "continuous_retry": "Continuous",
+        "no_delay": "No Delay",
+        "static": "Static",
+        "dynamic": "Dynamic",
+        "nearest": "Nearest",
+        "ceil": "Ceil",
+        "floor": "Floor"
+      }
+    }
+  },
+  "software_update_page": {
+    "page_title": "Software Update",
+    "update_checking_for_update": "Checking for the software update",
+    "already_upto_date": "System is up-to-date",
+    "new_updates_available": "New Update Available",
+    "version": "Version : ",
+    "feature": "Features :",
+    "initiating": "Initiating Download",
+    "downloading": "Downloading the latest updates...",
+    "percentage": "{{percentage}}% completed",
+    "validating": "Please wait. System validating your downloads",
+    "button": {
+      "download": "Download",
+      "install_now": "Install Now",
+      "install_later": "Install Later",
+      "close": "Close"
+    },
+    "popup": {
+      "title": "Software Update"
+    },
+    "success": {
+      "download_success1": "Software Download Completed",
+      "download_success2": "Device reboot required to install the downloaded features",
+      "download_success_without_permission": "Device reboot required. Please contact site admin to continue further. "
+    },
+    "check_for_update": {
+      "errors": {
+        "network_error": "Unable to check for latest updates. Please check your internet connection.",
+        "something_went_wrong": "Something went wrong. Please check the connection or contact tech support",
+        "operator_not_found": "No Operators assigned to the system, please contact your Administrator",
+        "system_suspended": "System is Suspended, please contact your Administrator.",
+        "subscription_expired": "Subscription is expired, please contact your Administrator.",
+        "subscription_not_started": "Subscription not active, please contact your Administrator.",
+        "system_not_assigned": "System is not assigned to a site, please contact your Administrator.",
+        "system_not_found": "System not found",
+        "unable_to_check": "Unable to check for latest updates."
+      }
+    },
+    "errors": {
+      "check_for_update": "Unable to check for latest updates. Please contact the site admin.",
+      "download_failed": "Error in downloading update.",
+      "validation_failed": "Software update validation failed",
+      "network_error": "Unable to download latest updates. Please check your internet connection.",
+      "download_package_failed": "Unable to download latest updates. Please check your internet connection.",
+      "out_of_storage": "Device doesn't have required storage to proceed downloads. Please contact your administrator",
+      "something_went_wrong": "Something went wrong. Please check the connection or contact tech support",
+      "subscription_end": "Subscription is expired, Please contact your Administrator.",
+      "system_suspended": "System is Suspended, please contact your Administrator.",
+      "operator_suspended": "Operator is Suspended, please contact your Administrator.",
+      "internet_not_available": "Please check your network connection. System will Redirect to Login page",
+      "redirect_login": "Redirecting to login page"
+    },
+    "confirmation": {
+      "title": "Download Confirmation",
+      "content1": "System will download the available updates in background and let you know once the download is completed",
+      "content2": "Meanwhile, You can continue using the system.",
+      "cancel": "Cancel",
+      "proceed": "Proceed"
+    }
+  },
+  "workflow_download": {
+    "in_progress": "Workflow Download In-progress",
+    "workflow_download_failed": "Failed to download the workflow. Please try again later"
+  },
+  "barcode_errors": {
+    "barcode_maximum_length_has_been_reached": "Invalid barcode length",
+    "duplicate_barcode": "Barcode already scanned.",
+    "barcode_failed": "Invalid barcode."
+  },
+  "additional_video": {
+    "title": "Additional video",
+    "start": "Start",
+    "skip": "Skip",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop",
+    "reset": "Reset",
+    "continue": "Continue",
+    "rec": "Rec"
+  },
+  "network_page": {
+    "network_settings_page_title": "Network Settings",
+    "ethernet": "Ethernet",
+    "wi-fi": "Wi-Fi",
+    "ethernet_ip": "Ethernet IP",
+    "enter_value": "Enter Value",
+    "password_for_network": "Passwords or encryption keys are required to connect to Wi-Fi network ",
+    "data_saved_successfully": "Data saved successfully",
+    "network_forgot_successfully": "Network forgotten successfully",
+    "edit_ip_configuration": "Network Settings - {{networkType}}  IP Configuration - Edit ",
+    "network_main_page": {
+      "test": "Test",
+      "information": "Information",
+      "serial_number": "Serial Number",
+      "ethernet_mac_address": "Ethernet MAC Address",
+      "ethernet_ip_address": "Ethernet IP Address",
+      "wifi_mac_address": "Wi-Fi MAC Address",
+      "wifi_ip_address": "Wi-Fi IP Address",
+      "please_choose_the_network_settings": "Please Select Preferable Network Type",
+      "beta": "BETA",
+      "ntp": "NTP",
+      "proxy": "Proxy"
+    },
+    "ip_details": {
+      "ip_settings": "IP Settings",
+      "ip_configuration_settings": "IP Configuration Settings",
+      "dhcp": "DHCP",
+      "static": "Static IP",
+      "ip_address": "IP Address",
+      "subnet": "Subnet",
+      "preferred_dns": "Preferred DNS",
+      "alternate_dns": "Alternate DNS",
+      "gateway": "Gateway",
+      "network_mode": "Network Mode"
+    },
+    "ethernet_page": {
+      "title": "Network Settings - Ethernet"
+    },
+    "wifi_page": {
+      "title": "Network Settings - Wi-Fi",
+      "on": "ON",
+      "off": "OFF",
+      "current_network": "Current Network",
+      "wifi_ip": "Wi-Fi IP",
+      "show_networks": "Show Networks",
+      "forget_connection": "Forget Connection",
+      "connecting": "Connecting...",
+      "connect": "Connect",
+      "forgetting": "Forgetting ... ",
+      "no_available_networks": "No Available Networks",
+      "available_networks": "Available Networks",
+      "action_required": "Action Required",
+      "authentication_required": "Authentication Required",
+      "this_network_is_already_connected": "This Network is already connected",
+      "not_selected": "Not Selected",
+      "enterprise": {
+        "wifi_security": "Wi-Fi security",
+        "authentication": "Authentication",
+        "anonymousIdentity": "Anonymous Identity",
+        "domain": "Domain",
+        "ca_certificate": "CA Certificate",
+        "ca_certificate_password": "CA Certificate password",
+        "no_ca_is_required": "No CA Certificate is required",
+        "peap_version": "PEAP Version",
+        "inner_authentication": "Inner Authentication",
+        "username": "Username",
+        "password": "Password"
+      }
+    },
+    "network_test": {
+      "network_validator": "Network Validator",
+      "connection_availability": "Connection Availability",
+      "internet_availability": "Internet Availability",
+      "forge_communication": "Forge Communication",
+      "websocket_communication": "Websocket Communication",
+      "download_speed": "Download Speed",
+      "upload_speed": "Upload Speed",
+      "reports": "Reports",
+      "hide_reports": "Hide Reports"
+    },
+    "test_result": {
+      "sub_domain": "Sub Domain",
+      "status_code": "Status Code",
+      "response_msg": "Status"
+    },
+    "unable_to_fetch_ip_address_from_router": "Wifi Connected Successfully, But Unable to fetch IP Address From Router",
+    "network_error": {
+      "unable_to_fetch_ethernet_settings": "Unable to fetch Ethernet Settings",
+      "unable_to_detect_ethernet": "Please ensure ethernet is connected",
+      "unable_to_fetch_ip_address": "Unable to fetch IP Address",
+      "data_received_successfully": "Data Saved Successfully",
+      "unable_to_configure_ethernet_settings": "Unable to configure Ethernet settings",
+      "unable_to_restart_network": "Unable to restart network",
+      "wifi_adaptor_is_not_connected": "Please ensure Wi-Fi adaptor is connected",
+      "something_went_wrong": "Something went wrong",
+      "unable_to_configure_wifi_settings": "Unable to configure Wi-Fi settings",
+      "wifi_type_not_supported": "Wi-Fi type not supported",
+      "ssid_not_found": "Network not found",
+      "wifi_removed": "Wi-Fi Connection Settings Removed",
+      "unable_to_turn_on_wifi": "Unable to Turn ON Wi-Fi",
+      "unable_to_connect_to_wifi": "Unable to connect to Wi-Fi Network",
+      "please_enter_valid_data": "Please enter valid data in each field.",
+      "incorrect_password": "Incorrect Password",
+      "unable_to_fetch_interface": "Unable to fetch Interface",
+      "exception_in_getting_wifi_list": "Unable to get the WiFi List. Please try again.",
+      "exception_in_forget_connection": "Exception occurred while forget the connection. Please try again.",
+      "exception_in_wifi_connection": "Exception occurred while connecting to WiFi. Please try again or contact tech support."
+    },
+    "ntp_server": {
+      "ntp_server_configration": "NTP Server Configuration",
+      "server": "NTP Server",
+      "no_server_configured": "No Server Configured",
+      "enter_ntp_server": "Enter Custom NTP Server"
+    },
+    "proxy_server": {
+      "mode": {
+        "disabled": "Disabled",
+        "manual": "Manual",
+        "automatic": "Automatic"
+      },
+      "proxy_server_configuration": "Proxy Server Configuration",
+      "proxy_server_mode": "Proxy Server Mode",
+      "ip_details": {
+        "http_proxy": "HTTP Proxy",
+        "https_proxy": "HTTPS Proxy",
+        "no_proxy": "No Proxy",
+        "username": "Username",
+        "password": "Password",
+        "authentication_required": "Authentication Required",
+        "no_proxy_helper_text": "Default Value: localhost",
+        "pac_file_url": "PAC File URL"
+      },
+      "pac_file_helper_text": "Provide Remote URL of PAC file",
+      "success_msg": "Proxy Server Configured Successfully",
+      "failure_msg": "Unable to Configure Proxy Server",
+      "error_msg": {
+        "http_no_proxy_found": "HTTP - No Proxy Found",
+        "https_no_proxy_found": "HTTPS - No Proxy Found",
+        "http_authentication_failed": "HTTP - Authentication Failed",
+        "https_authentication_failed": "HTTPS - Authentication Failed",
+        "unable_to_validate_proxy_server": "Unable To Validate Proxy Server",
+        "invalid_pac_file_url": "Invalid PAC File URL",
+        "unable_to_connect_with_forge": "But Unable To Connect With Forge"
+      },
+      "authentication_dialog": {
+        "title": "Authentication Details"
+      }
+    }
+  },
+  "desktop_app": {
+    "page_title": "Desktop Connect",
+    "auto_login_request": "Login request received from desktop app",
+    "pair_status_lable_text": "Desktop App Status",
+    "paired": "Paired",
+    "not_paired": "Disconnected",
+    "unpair": "Unpair",
+    "pair_request_popup": {
+      "title": "Desktop Connect - Pairing Request",
+      "confirmation_text": "Device received new pair request. Do you want to allow?",
+      "timer_text": "Request will auto reject in : <0>{{counter}}</0> secs",
+      "note_text": "<0>Note :</0> Further measurements will be uploaded using current operator details",
+      "allow": "Confirm",
+      "dont_allow": "Reject"
+    },
+    "unpair_confirmation": {
+      "title": "Un-pair Confirmation",
+      "confirmation": "Are you sure to un-pair the Desktop App?",
+      "ok_button_text": "Un-pair"
+    }
+  },
+  "time_zone_page": {
+    "title": "Time Zone Configuration",
+    "success_msg": "Timezone configured successfully. Device will auto reboot in few seconds",
+    "failure_msg": "Unable to configure selected timezone",
+    "please_wait": "Please wait. System timezone configuration in-progress",
+    "timezone_list": "Time Zone List",
+    "confirmation_dialog": {
+      "title": "Device Reboot Confirmation",
+      "content": "Timezone update requires a device reboot. Are you sure to proceed further and reboot the system?",
+      "ok": "Proceed"
+    }
+  },
+  "settings_page": {
+    "please_select_barcode": "Please connect Barcode scanner"
+  },
+  "logs_page": {
+    "measurement_logs": "Measurement Logs",
+    "calibration_logs": "Calibration Logs",
+    "reference_box_log": "Reference Box Logs",
+    "barcode_validation_log": "Barcode Validation Logs",
+    "configuration_log": "Configuration Logs",
+    "measurement": {
+      "title": "Measurements",
+      "annotation_image": "Annotation Image",
+      "table": {
+        "status": "Status",
+        "measurement_id": "Measurement ID",
+        "date_time": "Date Time",
+        "length": "Length",
+        "width": "Width",
+        "height": "Height",
+        "actual_weight": "Actual Weight",
+        "barcode": "Barcode",
+        "image": "Image",
+        "view": "View",
+        "additional_info": "Additional Info",
+        "upload_status": "Upload Status",
+        "object_type": "Object Type"
+      },
+      "popup": {
+        "title": "Measurement Details",
+        "img_loader_text": "Fetching Image",
+        "measurement_status": "Measurement Status",
+        "upload_status": "Upload Status",
+        "measurement_id_with_value": "Measurement ID : <0>{{m_id}}</0>",
+        "date_time_with_value": "Date Time : <0>{{date_time}}</0>",
+        "success": "Success",
+        "failed": "Failed"
+      },
+      "pending": {
+        "records": "Pending Measurement Records",
+        "logs": "Pending Measurement Debugs",
+        "additional_images": "Pending Additional Images",
+        "additional_videos": "Pending Additional Videos"
+      },
+      "status": {
+        "uploaded": "Uploaded",
+        "uploading": "Uploading",
+        "yet_to_push": "Yet To Push"
+      }
+    },
+    "calibration": {
+      "title": "Calibrations",
+      "table": {
+        "status": "Status",
+        "calibration_id": "Calibration ID",
+        "date_time": "Date Time",
+        "height": "Height",
+        "angle": "Angle",
+        "mode": "Mode",
+        "additional_info": "Additional Info",
+        "upload_status": "Upload Status"
+      },
+      "pending": {
+        "records": "Pending Calibration Records",
+        "logs": "Pending Calibration Logs"
+      }
+    },
+    "reference_box_logs": {
+      "title": "Reference Box Logs",
+      "table": {
+        "status": "Status",
+        "measurement_id": "Measurement ID",
+        "date_time": "Date Time",
+        "barcode": "Barcode",
+        "length": "Length",
+        "width": "Width",
+        "height": "Height",
+        "weight": "Weight",
+        "expected_length": "Expected Length",
+        "expected_width": "Expected Width",
+        "expected_height": "Expected Height",
+        "expected_weight": "Expected Weight",
+        "image": "Image",
+        "additional_info": "Additional Info",
+        "upload_status": "Upload Status",
+        "object_type": "Object Type"
+      },
+      "pending": {
+        "records": "Pending Reference Box Records",
+        "logs": "Pending Reference Box Debugs"
+      }
+    },
+    "barcode_validation_logs": {
+      "title": "Barcode Validation Logs",
+      "table": {
+        "status": "Status",
+        "date_time": "Date Time",
+        "barcode": "Barcode",
+        "api_response_code": "API Response Code",
+        "api_response": "API Response",
+        "upload_status": "Upload Status"
+      },
+      "pending": {
+        "records": "Pending Barcode Validation Logs"
+      }
+    },
+    "configuration": {
+      "title": "Configurations",
+      "table": {
+        "config_id": "ID",
+        "setting_group": "Configuration Group",
+        "previous_value": "Previous Value",
+        "current_value": "Current Value",
+        "updated_user_name": "Modified By",
+        "modified_at": "Date Time"
+      },
+      "pending": {
+        "records": "Pending System Config Logs"
+      },
+      "settting_group": {
+        "metrological": "Metrological Setting",
+        "ethernet": "Ethernet Setting",
+        "wifi": "WiFi Setting",
+        "weighing_scale": "Weighing Scale Setting",
+        "barcode": "Barcode Setting",
+        "calibration": "Calibration Setting",
+        "system_settings": "System Setting",
+        "unit": "Unit Setting"
+      },
+      "fields": {
+        "metrological_setting": "Metrological Setting",
+        "is_strict_mode_enabled": "Strict Mode Enabled",
+        "is_ethernet_enabled": "Enabled",
+        "is_ethernet_static_enabled": "Static Enabled",
+        "ethernet_alternate_dns": "Alternate DNS",
+        "ethernet_gateway": "Gateway",
+        "ethernet_network_type": "Network Type",
+        "ethernet_preferred_dns": "Preferred DNS",
+        "ethernet_ip": "IP",
+        "ethernet_subnet": "Subnet",
+        "is_wifi_static_enabled": "Static Enabled",
+        "is_wifi_enabled": "Enabled",
+        "wifi_alternate_dns": "Alternate DNS",
+        "wifi_gateway": "Gateway",
+        "wifi_network_type": "Network Type",
+        "wifi_preferred_dns": "Preferred DNS",
+        "wifi_ip": "IP",
+        "wifi_subnet": "Subnet",
+        "weighing_scale_name": "Scale Name",
+        "weighing_scale_unit": "Scale Unit",
+        "weighing_scale_minimum_weight": "Scale Min. Weight",
+        "barcode": "Barcode",
+        "calibration_mode": "Calibration Mode",
+        "calibration_setting": "Calibration Setting",
+        "is_zero_weight_check": "Zero Weight Check Enabled",
+        "dimension_unit": "Dimension Unit",
+        "weight_unit": "Weight Unit",
+        "time_zone": "Timezone",
+        "language": "Language",
+        "font_size": "Font Size",
+        "keyboard_language": "Keyboard Language",
+        "volume_level": "Volume"
+      }
+    },
+    "download": {
+      "title": "Download Logs",
+      "download_success": "Successfully downloaded and copied the logs to selected USB device.",
+      "donwload_path": "Logs has been copied to <0>{{donwload_path}}</0> folder",
+      "in_progress": "Please wait. Download In Progress.",
+      "info": {
+        "disk_size": "Disk size",
+        "download_info": "Please make sure to connect USB storage device.",
+        "log_count": "Number of records",
+        "log_type": "Type of log",
+        "usb_selection": "USB Drive"
+      },
+      "error": {
+        "low_usb_storage": "There is not enough space on the selected USB device.",
+        "internet_required": "Please make sure the device is connected to the internet.",
+        "usb_required": "No USB device found. Please connect a USB storage device to proceed.",
+        "internet_issue": "Download Failed. Please check the internet connection.",
+        "no_usb_detected": "Download Failed. No USB device was found. Please connect the USB storage device to proceed.",
+        "no_selected_usb_detected": "Unable to find the selected USB device. Please check the USB device connection.",
+        "log_type_required": "Please Select at least one log type to proceed.",
+        "unknown_error": "Unable to complete the download. Please contact site admin."
+      }
+    },
+    "additional_info": {
+      "calibration": {
+        "success": "System Calibrated Successfully",
+        "height_failed": "System Calibration Failed.System Height: {{height}} and System Angle: {{angle}}deg",
+        "aurco_mark_not_detected": "System Calibration Failed.Unable to find marker in the preview",
+        "depth_shift_random_points_failure": "System Calibration Failed.Unable to detect reference points",
+        "incorrect_weight": "System Calibration Failed. Please check the weighing scale for unstable / negative / over weight.",
+        "scale_not_found": "System Calibration Failed.Weighing scale not found. Ensure Weighing scale is connected or reboot the system.",
+        "unable_to_get_data": "System Calibration Failed.Unable to get the weight from weighing scale.",
+        "incorrect_weight_unit": "System Calibration Failed.Weight Unit is incorrect."
+      },
+      "measurement": {
+        "success": "Object Measured Successfully.",
+        "scan_failed": "Unable to measure the object dimensions.",
+        "aurco_mark_not_detected": "Unable to find marker in the preview.",
+        "deviated_calibration": "Unable to measure the object dimensions-due to deviation from calibration settings",
+        "dims_out_of_spec": "Measurement dimension out of spec.",
+        "exception_get_dimension": "Camera Defect",
+        "invalid_dimensions": "One or more dimensions are out of bounds.",
+        "no_object_within_arena": "Object is not placed well within the work area rectangle.",
+        "object_angle_threshold_not_met": "The object is quite tilted, it is not parallel to the camera.",
+        "object_at_edge": "The object is nearly at the edge, please place it well within the frame.",
+        "object_out_of_frame": "Object too large or in close proximity to another object",
+        "below_minimum_thickness": "Object size is too low for measurement.",
+        "incorrect_weight": "Please check the weighing scale for unstable / negative / over weight.",
+        "scale_not_found": "Weighing scale not found. Ensure Weighing scale is connected or reboot the system.",
+        "unable_to_get_data": "Unable to get the weight from weighing scale.",
+        "incorrect_weight_unit": "Weight Unit is incorrect.",
+        "aurco_marker_is_moved": "Aruco marker is moved from its calibrated position",
+        "more_than_one_object": "More than one object found inside work area rectangle."
+      },
+      "test_measurement": {
+        "dim_check_fail": "Reference box didn't meet the expected dimension value",
+        "weight_check_fail": "Reference box didn't meet expected weight value",
+        "success": "Reference box measured successfully",
+        "both_dim_weight_check_failed": "Reference box didn't meet the expected dimension and actual weight value,",
+        "scan_failed": "Unable to measure the object dimensions.",
+        "aurco_mark_not_detected": "Unable to find marker in the preview.",
+        "deviated_calibration": "Unable to measure the object dimensions-due to deviation from calibration settings",
+        "dims_out_of_spec": "Measurement dimension out of spec.",
+        "exception_get_dimension": "Camera Defect",
+        "invalid_dimensions": "One or more dimensions are out of bounds.",
+        "no_object_within_arena": "Object is not placed well within the work area rectangle.",
+        "object_angle_threshold_not_met": "The object is quite tilted, it is not parallel to the camera.",
+        "object_at_edge": "The object is nearly at the edge, please place it well within the frame.",
+        "object_out_of_frame": "Object too large or in close proximity to another object.",
+        "below_minimum_thickness": "Object size is too low for measurement.",
+        "incorrect_weight": "Incorrect Weight,Please check weight is stable / Zero the Weighing scale",
+        "scale_not_found": "Weighing scale not found. Ensure Weighing scale is connected or reboot the system.",
+        "unable_to_get_data": "Unable to get the weight from weighing scale.",
+        "incorrect_weight_unit": "Weight Unit is incorrect.",
+        "aurco_marker_is_moved": "Aruco marker is moved from its calibrated position",
+        "more_than_one_object": "More than one object found inside work area rectangle."
+      }
+    }
+  },
+  "additional_images": {
+    "title": "Additional Images - Preview",
+    "reset_confirmation": {
+      "title": "Reset Confirmation",
+      "content": "Are you sure you want to reset the captured images?"
+    },
+    "image_skipped": "Image Skipped",
+    "yet_to_capture": "Yet To Capture",
+    "captured_image_preview": "Captured Images - Preview",
+    "buttons": {
+      "skip": "Skip",
+      "capture": "Capture",
+      "reset": "Reset",
+      "re_capture": "Re-Capture",
+      "next": "Next"
+    },
+    "4k_not_supported": "4K camera not supported. <0></0> Proceeding with normal resolution camera"
+  },
+  "measurement_notes": {
+    "measurement_init": {
+      "system_state": "System is READY for measurement.",
+      "measurement_instruction": "Ensure major part of the object is within the Work Area rectangle",
+      "select_barcode": "Please connect barcode scanner",
+      "connect_barcode": "Please connect barcode scanner",
+      "connect_weighing_scale": "Please connect weighing scale",
+      "scan_barcode_trigger": "Scan {{barcode_field}} for triggering the Measurement",
+      "scan_barcode_manual": "Scan {{barcode_field}} and press Validate to Measure",
+      "volumentric_divisor_required": "Please select the Volumetric Dynamic divisor to Proceed Measurement",
+      "custom_fields_required": "Please fill mandatory Custom Fields to proceed with measurement",
+      "scan_barcode_again": "Please scan {{barcode_field}} again to proceed with measurement",
+      "measurement_check_required": "Measurement check required, Measure reference box to continue",
+      "invalid_reference_box": "{{barcode_field}} value does't match with any of the reference boxes",
+      "measurement_check_barcode_scan": "Scan reference box {{barcode_field}} value to proceed",
+      "connect_weighing_scale_to_perform_measurement_check": "To perform reference box measurement, Please connect weighing scale",
+      "connect_weighing_scale_to_perform_measurement_check_primary": "Unable to perform reference box measurement",
+      "connect_weighing_scale_to_perform_measurement_check_secondary": "Please connect weighing scale to proceed",
+      "reference_box_doesnot_assign_to_site_primary": "No Reference box assigned to the site.",
+      "reference_box_doesnot_assign_to_site_secondary": "Please assign reference box to continue",
+      "regex_validation_failed": "{{custom_field}} regex validation failed"
+    },
+    "measurement_barcode_validate": {
+      "validation_in_progress": "{{barcode_field}} validation in progress",
+      "validation_success": "{{barcode_field}} validated successfully!",
+      "insert_minimum_of_characters": "{{barcode_field}} length is too short, expected minimum of {{minimum_charcters}} characters",
+      "barcode_maximum_length_has_been_reached": "{{barcode_field}} length is too long, expected maximum of {{maximum_charcters}} characters.",
+      "invalid_regex_format": "{{barcode_field}} regex validation failed",
+      "api_validation_failed": "{{barcode_field}} API validation failed. {{message}}",
+      "invalid_reference_box_barcode": "{{barcode_field}} value does't match with any of the reference box",
+      "already_scanned": "This {{barcode_field}} has been scanned before Measurement",
+      "barcode_already_exists": "{{barcode_field}} already exists",
+      "reference_box_barcode": "{{barcode_field}} reserved for reference box",
+      "barcode_added_successfully": "{{barcode_field}} added successfully",
+      "expected_response_not_matched": "Expected response didn't match, validation failed",
+      "retry_cancelled": "{{barcode_field}} API validation retry cancelled",
+      "connect_weighing_scale_to_perform_measurement_check": "To perform reference box measurement, Please connect weighing scale",
+      "units_mismatched": "Units provided for reference box didn't match with system units",
+      "network_error": "Unable to fetch information, please check your network connection."
+    },
+    "measurement_ready": {
+      "system_ready": "System is Ready for Measurement",
+      "note": "Ensure major part of the object is placed within the Work Area rectangle",
+      "note_click_measure": "Ensure major part of the object is placed within the work area rectangle. Click Measure to proceed",
+      "wait_for_weighing_scale_trigger": "Waiting for object to be placed in weighing scale",
+      "wait_for_weighing_scale_trigger_timeout": "Place the object in weighing scale before timing out",
+      "wait_for_validate_frame_timeout": "Waiting for object to be placed in Work Area rectangle",
+      "wait_for_validate_frame": "Place the object in Work Area rectangle before timing out"
+    },
+    "measuring_state": {
+      "measurement_in_progress": "Measuring...",
+      "measurement_retry": "Measurement Retrying ... {{retry_count}}"
+    },
+    "test_measurement_result": {
+      "success": "Reference box measured successfully"
+    },
+    "measurement_result": {
+      "invalid_barcode": "{{barcode_field}} value does't match with any of the reference box",
+      "exception_get_dimension": "Unable to get data from camera",
+      "scan_failed": "Unable to measure the object dimensions",
+      "something_went_wrong": "Unable to measure the object dimensions",
+      "no_object_within_arena": "Object is not placed well within the work area rectangle",
+      "object_out_of_frame": "Object too large or in close proximity to another object",
+      "dims_out_of_spec": "Object dimension is out of specification",
+      "object_at_edge": "Object not in the Work Area, please place it within Work Area",
+      "deviated_calibration": "Unable to measure the object dimensions-due to deviation from calibration settings",
+      "object_angle_threshold_not_met": "Measurement failed, Object is un-even or tilted",
+      "incorrect_weight_unit": "Weight Unit is incorrect",
+      "incorrect_weight": "Please check the weighing scale for unstable / negative / over weight.",
+      "negative_weight": "Negative weight detected, Please check weight is Zero in the Weighing scale",
+      "scale_not_found": "Weighing scale not found, ensure Weighing scale is connected properly",
+      "unable_to_get_data": "Unable to get the weight from weighing scale",
+      "success": "Object Measured Successfully",
+      "dim_check_fail": "Reference box didn't meet the expected dimension value",
+      "weight_check_fail": "Reference box didn't meet the expected weight value",
+      "both_dim_weight_check_failed": "Reference box didn't meet the expected dimension and weight value",
+      "zero_weight": "Measurement failed due to zero weight",
+      "connect_weighinging_scale_to_perform_measurement_check": "Please connect weighing scale to perform reference box measurement",
+      "captured_4k_successfully": "Object Measured Successfully. Captured 4K image successfully",
+      "capture_4k_failed": "Object Measured Successfully. <0>Failed to capture 4K image</0>",
+      "units_mismatched": "The units provided for reference box didn't match with system units",
+      "aurco_mark_not_detected": "Unable to find marker in the preview",
+      "below_minimum_thickness": "Object size is too low for measurement.",
+      "measurement_out_of_operating_temperature": "Camera Temperature Out of Range",
+      "more_than_one_object": "More than one object found inside work area rectangle.",
+      "yet_to_calibrate": "Calibration has failed, Please calibrate again to proceed",
+      "aurco_marker_is_moved": "Aruco marker is moved from its calibrated position"
+    },
+    "measurement_discard": {
+      "measurement_discarded": "Measurement Upload Cancelled by user, discarded the measurement"
+    },
+    "measurement_upload": {
+      "internal_server_error": "Unable to connect to server, please check your internet connection",
+      "unable_to_connect_to_server": "Unable to connect to server, please check your internet connection",
+      "uploading": "Uploading measurement data",
+      "cancel_data_push_to_forge": "Cancelling measurement upload",
+      "too_much_data_to_push_to_forge": "Storage Limit Reached. Data upload is too slow, please verify your network connection.",
+      "queue_is_full": "Storage Limit Reached. Data upload is too slow, please verify your network connection.",
+      "data_pushed_to_scheduler": "Measurement upload is scheduled",
+      "data_pushed_to_forge": "Measurement data uploaded successfully",
+      "data_upload_to_forge": "Measurement data uploaded successfully",
+      "data_pushed_to_queue": "Measurement data added to queue successfully",
+      "retrying_upload": "Retrying measurement upload ...",
+      "retake_measurement": "Unable to do measurement due to error in camera, please retry again.",
+      "timeout_for_no_object_within_arena": "Timeout occurred due to the object not being placed properly within the work area rectangle",
+      "timeout_for_object_out_of_frame": "Timeout occurred due to the object being too large or placed too close to another object",
+      "timeout_for_incorrect_weight": "Timeout occurred due to incorrect weight. Please check if the weight is stable",
+      "timeout_for_unable_to_get_weight": "Timeout occurred due to unable to get the weight from weighing scale",
+      "timeout_for_zero_weight": "Timeout occurred due to zero weight in weighing scale",
+      "custom_service_unavailable": "Measurement Upload failed through Custom Service",
+      "something_went_wrong": "Something went wrong"
+    },
+    "measurement_complete": {
+      "press_clear_to_proceed": "Press CLEAR to proceed."
+    },
+    "ntep": {
+      "message": "Keep Only one object inside the work area"
+    }
+  },
+  "measurement_page": {
+    "title": "Measurement",
+    "additional_barcode": {
+      "title": "Additional Barcode",
+      "add_barcode_text": "Scan Barcodes to add",
+      "proceed": "Proceed",
+      "cancel": "Cancel",
+      "reset": "Reset",
+      "no_of_barcodes_scanned": "No of barcodes scanned : "
+    },
+    "barcode_validation_popup": {
+      "title": "Validating {{barcode_field}}",
+      "retrying": "Retrying"
+    },
+    "calibration_dialog": {
+      "title": "Alert",
+      "content": "Please calibrate the system before proceeding with measurement",
+      "button": "Calibrate"
+    },
+    "queue_full_dialog": {
+      "title": "Alert",
+      "content": "Storage Limit Reached. Data upload is too slow, please verify your network connection.",
+      "button": "Ok"
+    },
+    "bottle_mode_confirmation": {
+      "title": "Confirmation",
+      "content": "If bottle mode is enabled, height and length of the object will be swapped. Are you sure you want to proceed.",
+      "proceed": "Proceed",
+      "cancel": "Cancel"
+    },
+    "upload_retry_dialog": {
+      "title": "Measurement Upload Retry",
+      "message": "Retrying"
+    },
+    "measurement_data": {
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "actual_weight": "Actual Weight",
+      "cubic_volume": "Cubic Volume",
+      "real_volume": "Real Volume",
+      "volumetric_weight": "Volumetric Weight",
+      "volumetric_divisor": "Volumetric Divisor"
+    },
+    "navigate_confirmation_popup": {
+      "title": "Confirmation",
+      "content": "You are in mid of a measurement flow, are you sure you want to exit the page? "
+    },
+    "button": {
+      "measure": "Measure",
+      "validate": "Validate",
+      "clear": "Clear",
+      "clearing_in": "Clearing in",
+      "auto_save_in": "Auto Save in",
+      "measuring_in": "Measuring in",
+      "timing_out": "Timing Out",
+      "accept": "Accept",
+      "waiting_for_object": "Waiting For Object"
+    },
+    "dialog_titles": {
+      "measurement_result": "Measurement Result",
+      "qr_scan": "QR Scan"
+    },
+    "bottle_mode": "Bottle Mode"
+  },
+  "dims_spec_page": {
+    "title": "Cuboid & Irregular Specifications",
+    "dims_measurement_table": {
+      "title": "The below table shows the smallest and largest measurement in each axis with a deviation of 0.5 cm",
+      "ntep_title": "The below table shows the smallest and largest measurement in each axis with a division of 0.5 inch for both regular and irregular objects.",
+      "dimensions": "Dimensions ({{unit}})",
+      "minimum": "Min ({{unit}})",
+      "maximum": "Max ({{unit}})",
+      "minimum_irregular": "Min Irregular ({{unit}})",
+      "maximum_irregular": "Max Irregular ({{unit}})",
+      "length": "length",
+      "width": "width",
+      "height": "height"
+    },
+    "measurement_rangle_table": {
+      "title": "The below table references the largest package size for the height indicated in the height column",
+      "height": "Height ({{unit}})",
+      "max_length": "Max Length ({{unit}})",
+      "max_width": "Max Width ({{unit}})"
+    },
+    "limitation_title": "Limitation",
+    "ntep_limitation": "For Dimensioning of singular static opaque cuboidal and non-cuboidal shaped objects except which has sharp corners as the point of measurement.",
+    "setup_height": "Setup Height : {{setup_height}} M",
+    "setup_height_ntep": "Setup Height : {{setup_height}} INCH (NTEP)"
+  },
+  "operator_page": {
+    "title": "Select the Operator",
+    "system_error": {
+      "operator_not_found": "No Operators assigned to the system, please contact your Administrator",
+      "system_suspended": "System is Suspended, please contact your Administrator.",
+      "subscription_expired": "Subscription is expired, please contact your Administrator.",
+      "subscription_not_started": "Subscription not active, please contact your Administrator.",
+      "system_not_assigned": "System is not assigned to a site, please contact your Administrator.",
+      "system_not_found": "System not found",
+      "network_error": "Unable to fetch information from Forge, Kindly refresh the page and ensure your internet connection is active"
+    },
+    "loading_data": "Fetching data from forge",
+    "loading_data_1": "Retrying to fetch data from forge",
+    "syncing_time": "Waiting for time to sync",
+    "syncing_time_1": "Retrying for time to sync"
+  },
+  "common": {
+    "button": {
+      "goToMeasure": "Go To Measure",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "discard": "Discard",
+      "save": "Save",
+      "close": "Close",
+      "yes": "Yes",
+      "no": "No",
+      "ok": "Ok",
+      "download": "Download",
+      "accept": "Accept",
+      "add": "Add",
+      "next": "Next"
+    },
+    "message": {
+      "NA": "NA",
+      "none": "None",
+      "data_saved_successfully": "Data saved successfully",
+      "failed_to_save_data": "Failed to Save the Data",
+      "no_data_found": "No data found",
+      "loading": "Loading ...",
+      "loading_text": "Loading",
+      "read_more": "Read more",
+      "show_less": "Show less",
+      "null_frame": "Error in fetching frame from camera",
+      "network_error": "Unable to fetch information, please check your network connection.",
+      "device_restart": "The system will restart automatically in {{second}} seconds",
+      "page": "Page",
+      "showing_count": "Showing  <0>{{from}}</0> to <0>{{to}}</0>",
+      "permission_denied": "You don't have permission to change the settings",
+      "please_wait": "Please Wait"
+    }
+  },
+  "reference_box_page": {
+    "title": "Reference Boxes",
+    "max_measurement_count": "Measurement check count",
+    "measure_count_after_reference_box": "Measure count after reference box measurement",
+    "table": {
+      "name": "Name",
+      "barcode": "Barcode",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "actual_weight": "Actual Weight",
+      "dimension_tolerance": "Dimension Tolerance",
+      "weight_tolerance": "Weight Tolerance"
+    }
+  },
+  "logout_page": {
+    "title": "Logout",
+    "content": "Are you sure you want to logout?"
+  },
+  "user_info": {
+    "name": "Name",
+    "mail": "Mail"
+  },
+  "server_connection_failed": "Unable to connect to server!",
+  "something_went_wrong": "Something went wrong",
+  "scale_reconnect_dialog": {
+    "title": "Weighing Scale Detected",
+    "scale_detached": "Weighing Scale Detached",
+    "content": "Please calibrate the system before proceeding with measurement. Please make sure the selected scale unit and weighing scale unit are same.",
+    "content_2": "Current measurement data will be lost.",
+    "detach_content": "Weighing scale is detached.",
+    "ok": "ok",
+    "button": "Calibrate",
+    "button_2": "Scale settings"
+  },
+  "workflow_update_popup": {
+    "title": "Notification - Workflow Got Updated",
+    "content": "Do you want to download latest workflow?",
+    "content_measurement_reset": "Ongoing Measurement data will be reseted during this process. Do you want to download latest workflow?. ",
+    "yes": "Yes",
+    "later": "Later"
+  },
+  "custom_flow_common_text": {
+    "submit": "SUBMIT",
+    "select": "Select",
+    "rendering_page": "Rendering Page",
+    "custom_workflow_content": "<0> Note </0>: Your data will be lost in case of workflow update and you will be directed to Menu page.",
+    "service_unavailable": "Unable To Proceed. Please Contact Site Admin",
+    "scale_navigate_warning": "<0> Note </0>: The measurement flow will be lost because the weighing scale disconnected during the process.",
+    "device_update_warning": "<0> Note </0>: Your data will be lost if in case any pending measurements available during the device reboot"
+  },
+  "device_config_download": {
+    "in_progress": "System Configuration Download In-progress",
+    "device_config_download_failed": "Failed to download the device configuration. Please try again later",
+    "weighing_scale_change": "Weighing scale got changed in forge. Go To scale setting and please select the proper unit to proceed",
+    "timezone_change": "Timezone got changed in forge. Timezone update requires a device reboot. Please click proceed to reboot the device.",
+    "proceed": "Proceed",
+    "scale_settings": "Scale Settings",
+    "title": "System Configuration Update"
+  }
+}

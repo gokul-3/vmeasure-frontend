@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .st0{fill:none;stroke:#FFFFFF;stroke-width:17;stroke-miterlimit:10;}
+	    .st1{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	    .st2{fill:#FFFFFF;}
+    </style>
+  </defs>
+  <polygon class="st0" points="95 133.95 95 330.95 269.5 431.95 445.7 330.95 445.7 133.25 270.3 31.05 95 133.95"/>
+  <polyline class="st0" points="445.3 133.35 270.3 231.45 269.5 431.55"/>
+  <line class="st0" x1="214.9" y1="200.45" x2="270.3" y2="231.45"/>
+  <line class="st0" x1="153.1" y1="166.25" x2="95" y2="133.95"/>
+  <line class="st0" x1="176.1" y1="177.65" x2="192.8" y2="187.25"/>
+  <g>
+    <line class="st1" x1="217.36" y1="462.06" x2="88.45" y2="386.94"/>
+    <path class="st2" d="m248.64,480.29c-11.52-14-24.39-34.01-29.97-50.45l-5.45,29.81-23.25,19.44c17.01-3.17,40.68-1.87,58.67,1.21Z"/>
+    <path class="st2" d="m57.18,368.71c17.86,3.12,41.61,4.46,58.67,1.21l-23.25,19.44-5.45,29.81c-5.63-16.36-18.51-36.36-29.97-50.45Z"/>
+  </g>
+</svg>

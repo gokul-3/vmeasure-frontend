@@ -1,0 +1,72 @@
+{
+  "name": "vmeasureultima",
+  "version": "2.2.3",
+  "author": "VisAI Labs  <sales@visailabs.com>",
+  "description": "vMeasure Parcel Pro AI-led automated dimensioners can accurately measure the Dimensions of small, medium, and large eCommerce parcels",
+  "main": "src/index.js",
+  "homepage": "./",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.5",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.93",
+    "@mui/material": "^5.9.3",
+    "@mui/styled-engine": "^5.13.2",
+    "@mui/styled-engine-sc": "^5.9.3",
+    "@mui/system": "^5.14.15",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@rjsf/core": "^5.10.0",
+    "@rjsf/mui": "^5.10.0",
+    "@rjsf/utils": "^5.10.0",
+    "@rjsf/validator-ajv8": "^5.10.0",
+    "axios": "^1.6.7",
+    "http-status": "^1.7.3",
+    "i18next": "^23.3.0",
+    "i18next-browser-languagedetector": "^7.0.2",
+    "i18next-http-backend": "^2.2.1",
+    "lodash": "^4.17.21",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-countdown-circle-timer": "^3.2.1",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-i18next": "^13.0.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.3.0",
+    "react-simple-keyboard": "^3.6.45",
+    "redux-thunk": "^2.4.2",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test",
+    "react-eject": "react-scripts eject",
+    "build": "npm run react-build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">1%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "react-scripts": "5.0.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "securityType" : {
+        "Protected EAP (PEAP)" : {
+            "Anonymous_identity" : true,
+            "Domain" : true,
+            "CA_Certificate" : true,
+            "CA_Certificate_Password" : true,
+            "Version_Status" :true,
+            "PEAP_Version" : ["Automatic","Version1", "Version2"],
+            "InnerAuthentication_Status" : true,
+            "InnerAuthentication" : ["MSCHAPv2","MD5","GTC"],
+            "phase1_status" : true,
+            "phase1" : "peaplabel=0",
+            "Username" : true,
+            "Password" : true
+        },
+        "TCL" : {
+
+        }
+        
+    }
+}

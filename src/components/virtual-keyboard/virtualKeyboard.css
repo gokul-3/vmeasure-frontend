@@ -1,0 +1,121 @@
+/* keyboard.css */
+.container {
+    padding: 20px 20px;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background: #202124;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    display: flex;
+    width: 95px;
+    height: 90px;
+    margin: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #35454d;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 34px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.key span {
+    /* border: 2px solid black; */
+    transition: font-size 0.1s ease-in-out;
+}
+
+.key:has(span:nth-child(2)) span:first-child {
+    color: #121212;
+    font-size: 22px;
+    width: 70%;
+}
+
+.key:active {
+    background-color: #2d3a41;
+}
+
+.drag,
+.close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 12px;
+    margin-top: -20px;
+}
+
+.drag {
+    background-color: #35454d;
+    cursor: grab;
+}
+
+.drag:active {
+    cursor: grabbing;
+}
+
+.close {
+    margin-right: 10px;
+    background-color: #860000;
+    cursor: pointer;
+}
+
+.row:nth-child(1) {
+    justify-content: space-between;
+}
+
+.row:nth-child(1) .key:nth-child(2),
+.row:nth-child(1) .key:nth-child(3) {
+    width: 190px;
+}
+
+.row:nth-child(2) .key:first-child {
+    width: 80px;
+}
+
+.row:nth-child(2) .key:last-child {
+    width: 190px;
+}
+
+.row:nth-child(3) .key:first-child {
+    width: 175px;
+}
+
+.row:nth-child(4) .key:first-child {
+    width: 190px;
+}
+
+.row:nth-child(4) .key:last-child {
+    width: 185px;
+}
+
+.row:nth-child(5) .key:first-child {
+    width: 240px;
+}
+
+.row:nth-child(5) .key:last-child {
+    width: 240px;
+}
+
+.row:nth-child(6) .key:nth-child(2) {
+    width: 1140px;
+}
+
+.row:nth-child(6) .key:last-child,
+.row:nth-child(6) .key:first-child {
+    width: 190px;
+}
